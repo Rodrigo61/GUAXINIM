@@ -1,0 +1,3 @@
+/home/rodrigo/Dropbox/UNICAMP/GUAXINIM/D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rodrigo/Dropbox/UNICAMP/GUAXINIM/D/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rodrigo/Dropbox/UNICAMP/GUAXINIM/D/cmake-build-debug/CMakeFiles/D.dir

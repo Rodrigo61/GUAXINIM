@@ -1,0 +1,49 @@
+Scenario #1
+[DEBUG]1
+[DEBUG]2
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  1
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  1
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  1
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  0
+101
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  0
+102
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  0
+103
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  1
+201
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  1
+202
+[DEBUG]command =  DEQUEUE
+[DEBUG]team_id =  1
+203
+[DEBUG]3
+Scenario #2
+[DEBUG]1
+[DEBUG]2
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  1
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0
+[DEBUG]command =  ENQUEUE
+[DEBUG]team_id =  0

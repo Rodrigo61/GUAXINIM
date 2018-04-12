@@ -1,0 +1,222 @@
+#include <iostream>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+
+int ctoidx(char c){
+    return c - 'A';
+}
+
+
+class area{
+public:
+    vector<area*> vet_neighbors;
+    bool sleeping;
+    char data;
+
+    area(){
+        sleeping = false;
+        vet_neighbors.resize(26);
+    }
+
+    void set_neighbor(char data, area *neighbor){
+        vet_neighbors[ctoidx(data)] = neighbor;
+    }
+
+    bool will_wake(){
+        int waked_neighbor = 0;
+        for(auto it: vet_neighbors){
+            if(it){
+                if(!it->sleeping){
+                    ++waked_neighbor;
+                    if(waked_neighbor == 3){
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+};
+
+class disjoint_set_node{
+public:
+
+    char data;
+    disjoint_set_node *parent;
+    int rank;
+
+    disjoint_set_node& find_set_rec(disjoint_set_node &current_node){
+
+        if(current_node == *(current_node.parent)){
+            return current_node;
+        }
+
+        current_node.parent = &find_set_rec(*current_node.parent);
+        return *current_node.parent;
+    }
+
+
+
+    disjoint_set_node(){
+        parent = this;
+        rank = 0;
+    }
+
+    char get_data(){
+        return data;
+    }
+
+    void merge_set(disjoint_set_node &other_node){
+        auto &this_root = find_set();
+        auto &other_root = other_node.find_set();
+
+        if(other_root.rank > this_root.rank){
+            this_root.parent = &other_root;
+        }else{
+            other_root.parent = &this_root;
+
+            if(this_root.rank == other_root.rank){
+                ++this_root.rank;
+            }
+        }
+    }
+
+    disjoint_set_node& find_set(){
+        if(this->parent != this){
+            this->parent = &find_set_rec(*this->parent);
+            return *this->parent;
+        }else{
+            return *this;
+        }
+    }
+
+    void set_data(char _data){
+        data = _data;
+    }
+
+    bool operator!= (const disjoint_set_node &node_2)
+    {
+        return this->data != node_2.data;
+    }
+
+    bool operator== (const disjoint_set_node &node_2)
+    {
+        return this->data == node_2.data;
+    }
+};
+
+
+int main() {
+
+    ios::sync_with_stdio(false);
+
+    bool end_program = false;
+    while(!end_program){
+
+        int n_slept_area;
+        cin >> n_slept_area;
+        n_slept_area += 3;
+
+        int n_connections;
+        cin >> n_connections;
+
+        vector<disjoint_set_node> vet_disjoint_node(26);
+        vector<area> vet_area(26);
+        for (int i = 0; i < 26; ++i) {
+            vet_disjoint_node[i].set_data(i+'A');
+            vet_area[i].data = i+'A';
+        }
+
+        char waked_id_1, waked_id_2, waked_id_3;
+        cin >> waked_id_1 >> waked_id_2 >> waked_id_3;
+
+        for (int i = 0; i < n_connections; ++i) {
+            char area_id_1, area_id_2;
+            cin >> area_id_1 >> area_id_2;
+
+            vet_disjoint_node[ctoidx(area_id_1)].merge_set(vet_disjoint_node[ctoidx(area_id_2)]);
+
+            vet_area[ctoidx(area_id_1)].set_neighbor(area_id_2, &vet_area[ctoidx(area_id_2)]);
+            vet_area[ctoidx(area_id_2)].set_neighbor(area_id_1, &vet_area[ctoidx(area_id_1)]);
+            vet_area[ctoidx(area_id_1)].sleeping = true;
+            vet_area[ctoidx(area_id_2)].sleeping = true;
+
+        }
+
+        //wake the three first
+        vet_area[ctoidx(waked_id_1)].sleeping = false;
+        vet_area[ctoidx(waked_id_2)].sleeping = false;
+        vet_area[ctoidx(waked_id_3)].sleeping = false;
+
+
+    //PROBLEMA EH DAQUI PRA BAIXO
+        bool is_problem_possible = true;
+        for (int i = 0; i < 26; ++i) {
+            if(i == ctoidx(waked_id_1) || i == ctoidx(waked_id_2) || i == ctoidx(waked_id_3)){
+                continue;
+            }
+
+            if(vet_disjoint_node[i].find_set() == vet_disjoint_node[i]){
+                continue;
+            }
+
+            if(vet_disjoint_node[i].find_set() != vet_disjoint_node[ctoidx(waked_id_1)]
+            && vet_disjoint_node[i].find_set() != vet_disjoint_node[ctoidx(waked_id_2)]
+            && vet_disjoint_node[i].find_set() != vet_disjoint_node[ctoidx(waked_id_3)]){
+                is_problem_possible = false;
+            }
+        }
+
+
+        int current_time = 0;
+        if(is_problem_possible){
+            bool all_waked = false;
+            while(!all_waked){
+                list<int> waked_in_row_idx;
+                all_waked = true;
+                bool some_area_waked = false;
+                for (int i = 0; i < 26; ++i) {
+                    if(vet_area[i].sleeping){
+                        if(vet_area[i].will_wake()){
+                            waked_in_row_idx.push_back(i);
+                            some_area_waked = true;
+                        }else{
+                            all_waked = false;
+                        }
+                    }
+                }
+                ++current_time;
+
+                for(auto idx : waked_in_row_idx){
+                    vet_area[idx].sleeping = false;
+                }
+
+                if(!some_area_waked){
+                    cout << "THIS BRAIN NEVER WAKES UP" << endl;
+                    goto END_TEST;
+                }
+            }
+
+            cout << "WAKE UP IN, " << current_time << ", YEARS" << endl;
+        }else{
+            cout << "THIS BRAIN NEVER WAKES UP" << endl;
+        }
+
+
+        END_TEST:
+        cin.get();
+        if(cin.peek() == EOF){
+            end_program = true;
+        }else{
+            cin.get();
+        }
+
+    }
+
+
+    return 0;
+}

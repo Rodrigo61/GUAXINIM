@@ -1,0 +1,30 @@
+* Criou teste com multiplas repeticoes?
+
+* Checou as extremidades de todos os parametros?
+
+* Checou se não há copia desnecessária?
+
+* O parametro de leitura é uma palavra ou uma linha?
+
+* Se a saida envolve texto, voce deu diff com a saida exemplo?
+
+* Checou se os inteiros suportam? Se existem somas e multiplicacoes que estouram. ATENCAO, verifique tipo encobertos, como vector<int> == vi
+
+* (PONTO FLUTUANTE) FIXED deve entrar em todos os COUT e o cout.precision() 
+
+* Caso esteja iterando sobre um container, nunca esqueca de verificar
+o range, pois nem sempre isso causa runtime error. ++it sempre tem que verificar range.
+
+* O SORT exige uma definicao de "<", então certifique-se de que isso ocorre caso exista SEGFAULT nessa secao. Lembre-se (X < X) -> FALSE
+
+* Verificou se não cortou zeros a esquerda que seriam necessários para o problema?
+
+* Se voce está removendo elementos sobre um container, lembre-se de verificar a consistencia dos iteradores. A funcao erase sempre retorna a referencia para o proximo iterador da sequencia.
+
+* Lembre-se, strings devem ser tratadas caracter a carecter. Nao faca buscar numericas nelas.
+
+* Se nao terminar o COUT com endl vc deve dar flush()
+
+* Lembre-se que sqrt e divisoes sao truncadas.
+
+* Se estiver trabalhando com double, prefira trabalhar tudo em double para nao ocorrer erros de truncamento.

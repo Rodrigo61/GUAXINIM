@@ -1,0 +1,112 @@
+[DEBUG]added  2 0
+[DEBUG]added  10 0
+[DEBUG]added  8 2
+[DEBUG]added  12 0
+[DEBUG]SORTED
+[DEBUG]empty_idx =  0
+(0, 0) (0, 0) (0, 0) (0, 0) 
+[DEBUG]empty_idx =  3
+(2, 0) (10, 0) (12, 0) (0, 0) 
+[DEBUG]empty_idx =  4
+(2, 0) (10, 0) (12, 0) (8, 2) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  10 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]compare result =  1
+[DEBUG]empty_idx =  4
+(2, 0) (10, 0) (12, 0) (8, 2) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  10 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]compare result =  1
+[DEBUG]empty_idx =  3
+(12, 0) (10, 0) (2, 0) (8, 2) 
+[DEBUG]empty_idx =  4
+(12, 0) (10, 0) (2, 0) (8, 2) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]compare result =  2
+[DEBUG]empty_idx =  4
+(12, 0) (10, 0) (2, 0) (8, 2) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  8 ,  2
+[DEBUG]compare result =  2
+[DEBUG]empty_idx =  1
+(8, 2) (10, 0) (2, 0) (8, 2) 
+[DEBUG]empty_idx =  4
+(8, 2) (2, 0) (10, 0) (12, 0) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  10 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  12 ,  0
+[DEBUG]compare result =  1
+[DEBUG]empty_idx =  4
+(8, 2) (12, 0) (10, 0) (2, 0) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]compare result =  3
+[DEBUG]empty_idx =  1
+(8, 2) (12, 0) (10, 0) (2, 0) 
+[DEBUG]empty_idx =  4
+(8, 2) (2, 0) (10, 0) (12, 0) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  10 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  12 ,  0
+[DEBUG]compare result =  1
+[DEBUG]empty_idx =  4
+(8, 2) (12, 0) (10, 0) (2, 0) 
+[DEBUG]comparing
+[DEBUG]curr_hand[i] =  8 ,  2
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  12 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  10 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]curr_hand[i] =  2 ,  0
+[DEBUG]hand_copy[i] =  2 ,  0
+[DEBUG]compare result =  3
+1

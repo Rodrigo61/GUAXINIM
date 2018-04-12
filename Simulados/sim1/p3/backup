@@ -1,0 +1,67 @@
+#include <iostream>
+#include <cstring>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n_app, n_evnt;
+
+    cin >> n_app >> n_evnt;
+    n_app++;
+
+    int vet_noti[n_app];
+    memset(vet_noti, 0, sizeof(int)*n_app);
+    int vet_read[n_app];
+    memset(vet_read, 0, sizeof(int)*n_app);
+    vector<int> log_noti;
+    log_noti.reserve(n_evnt);
+
+    for (int w = 0; w < n_evnt; ++w) {
+        int cmd;
+        cin >> cmd;
+
+        switch(cmd){
+            case 1:{
+                int x;
+                cin >> x;
+                ++vet_noti[x];
+                log_noti.push_back(x);
+                break;
+            }
+            case 2:{
+                int x;
+                cin >> x;
+                vet_read[x] = vet_noti[x];
+                break;
+            }
+            case 3:{
+                int t;
+                cin >> t;
+
+                int vet_read_aux[n_app];
+                memset(vet_read_aux, 0, sizeof(int)*n_app);
+
+                for(int i = 0; i < t; ++i){
+                    vet_read_aux[log_noti[i]]++;
+                }
+
+                for (int i = 0; i < n_app; ++i) {
+                    if(vet_read_aux[i] > vet_read[i]){
+                        vet_read[i] = vet_read_aux[i];
+                    }
+                }
+                break;
+            }
+        }
+
+        int sum_noti = 0;
+        for (int i = 0; i < n_app; ++i) {
+            sum_noti += vet_noti[i] - vet_read[i];
+        }
+        cout << sum_noti << endl;
+    }
+
+
+    return 0;
+}

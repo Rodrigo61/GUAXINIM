@@ -1,0 +1,1471 @@
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node]LEAF =  -1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node] =  1
+[DEBUG]tree[node] =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 1 1 -1 -1 -1 1 -1 1 1 1 1 -1 1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  7  arg2 =  -92
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  6
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  16  arg2 =  26
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  4  arg2 =  -77
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  3
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  6
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  6  arg2 =  22
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  3
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  3
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  3
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  3
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  4
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  5
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  6
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  21
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  22
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  19  arg2 =  -53
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  18  arg2 =  -27
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  17
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  12  arg2 =  39
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  11
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  9  arg2 =  -51
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  11
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  16  arg2 =  -44
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  17
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  13  arg2 =  21
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  17
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  17
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  21  arg2 =  -74
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  10  arg2 =  69
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  11
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  5  arg2 =  21
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  8
+[DEBUG]pos =  6
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 -1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  6  arg2 =  50
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  5
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  1  arg2 =  2
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  5
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  5
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  3
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  3
+[DEBUG]LAZY| curr_seg.second =  4
+[DEBUG]pos =  3
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  2
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  20  arg2 =  20
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  20
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  19
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  18
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  19
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  20
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  19  arg2 =  -49
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  15  arg2 =  93
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  14
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  19  arg2 =  19
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  14
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  19
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  18
+[DEBUG]pos =  18
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  18
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  18
+[DEBUG]pos =  18
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  19
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  20
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  13  arg2 =  14
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  14
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  14
+[DEBUG]pos =  14
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  23  arg2 =  -89
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  22
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  7  arg2 =  13
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  9
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  11
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  22
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  12
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  13
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  19  arg2 =  19
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  22
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  18
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  19
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  20
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  2  arg2 =  14
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  0
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  1
+[DEBUG]VALUE | curr_seg.second =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  2
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  3
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  5
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  21  arg2 =  90
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 -1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  9  arg2 =  60
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  8
+[DEBUG]value =  -1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  15  arg2 =  19
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]LAZY| curr_seg.first =  14
+[DEBUG]LAZY| curr_seg.second =  14
+[DEBUG]pos =  14
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  16
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  20
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  20
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  18
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  19
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  20
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  14  arg2 =  21
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  12
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  13
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  8  arg2 =  12
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  8
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  8
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  8
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  8
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  8
+[DEBUG]pos =  8
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  8
+[DEBUG]LAZY| curr_seg.second =  8
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  7
+[DEBUG]LAZY| curr_seg.first =  6
+[DEBUG]LAZY| curr_seg.second =  7
+[DEBUG]pos =  6
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  6
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  7
+[DEBUG]VALUE | curr_seg.second =  7
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  8
+[DEBUG]VALUE | curr_seg.second =  8
+[DEBUG]LAZY| curr_seg.first =  8
+[DEBUG]LAZY| curr_seg.second =  8
+[DEBUG]pos =  8
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  9
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  9
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  1  arg2 =  62
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  1  arg2 =  22
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  21
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  22
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  21
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  22
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: 1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  1  arg2 =  -34
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  0
+[DEBUG]value =  -1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  1  arg2 =  21
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  0
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  5  arg2 =  14
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  0
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  2
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  4
+[DEBUG]LAZY| curr_seg.first =  3
+[DEBUG]LAZY| curr_seg.second =  4
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  3
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  4
+[DEBUG]VALUE | curr_seg.second =  4
+[DEBUG]LAZY| curr_seg.first =  4
+[DEBUG]LAZY| curr_seg.second =  4
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  5
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]LAZY| curr_seg.first =  5
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  5
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
+-[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  23  arg2 =  23
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  21
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  22
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  22
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  22
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+-[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  20  arg2 =  -56
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  19
+[DEBUG]value =  1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  15  arg2 =  15
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  19
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  13
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  14
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  21  arg2 =  -9
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  2  arg2 =  10
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  2
+[DEBUG]pos =  0
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  1
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  1
+[DEBUG]pos =  0
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  0
+[DEBUG]pos =  0
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  0
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  1
+[DEBUG]VALUE | curr_seg.second =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  2
+[DEBUG]VALUE | curr_seg.second =  2
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  3
+[DEBUG]VALUE | curr_seg.second =  5
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  6
+[DEBUG]VALUE | curr_seg.second =  8
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  9
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  9
+[DEBUG]VALUE | curr_seg.second =  10
+[DEBUG]LAZY| curr_seg.first =  9
+[DEBUG]LAZY| curr_seg.second =  10
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  9
+[DEBUG]VALUE | curr_seg.second =  9
+[DEBUG]LAZY| curr_seg.first =  9
+[DEBUG]LAZY| curr_seg.second =  9
+[DEBUG]pos =  9
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  10
+[DEBUG]VALUE | curr_seg.second =  10
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  11
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  16  arg2 =  85
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  19
+[DEBUG]value =  1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  16  arg2 =  21
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  14
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  15
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  17
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  16
+[DEBUG]pos =  15
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  15
+[DEBUG]LAZY| curr_seg.second =  15
+[DEBUG]pos =  15
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  19
+[DEBUG]value =  1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  20
+[DEBUG]LAZY| curr_seg.second =  20
+[DEBUG]pos =  20
+[DEBUG]value =  -1
+[DEBUG]VALUE | within =  -1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  19  arg2 =  20
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  19
+[DEBUG]LAZY| curr_seg.first =  18
+[DEBUG]LAZY| curr_seg.second =  19
+[DEBUG]pos =  19
+[DEBUG]value =  1
+[DEBUG]VALUE | within =  1
+[DEBUG]VALUE | curr_seg.first =  20
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | disjoint =  1
++[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  15  arg2 =  -45
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  14
+[DEBUG]value =  -1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  7  arg2 =  -94
+[DEBUG]UPT| value =  -1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  6
+[DEBUG]value =  1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  5  arg2 =  12
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  6
+[DEBUG]value =  1
+[DEBUG]VET: -1 -1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  2  arg2 =  94
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  1
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VET: -1 1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  P  arg1 =  22  arg2 =  23
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  0
+[DEBUG]VALUE | curr_seg.second =  11
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]LAZY| curr_seg.first =  12
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  14
+[DEBUG]value =  -1
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  12
+[DEBUG]VALUE | curr_seg.second =  17
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | Overlap
+[DEBUG]VALUE | curr_seg.first =  18
+[DEBUG]VALUE | curr_seg.second =  20
+[DEBUG]VALUE | disjoint =  1
+[DEBUG]VALUE | curr_seg.first =  21
+[DEBUG]VALUE | curr_seg.second =  22
+[DEBUG]VALUE | within =  1
++[DEBUG]VET: -1 1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  4  arg2 =  13
+[DEBUG]UPT| value =  1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  3
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  1
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  4
+[DEBUG]value =  1
+[DEBUG]VET: -1 1 -1 1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  9  arg2 =  40
+[DEBUG]UPT| value =  1  mult =  1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  8
+[DEBUG]value =  1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  11
+[DEBUG]pos =  3
+[DEBUG]value =  -1
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  5
+[DEBUG]pos =  1
+[DEBUG]value =  -1
+[DEBUG]VET: -1 1 -1 1 1 1 -1 1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 -1 -1 
+[DEBUG]cmd =  C  arg1 =  17  arg2 =  -70
+[DEBUG]UPT| value =  -1  mult =  -1
+[DEBUG]UPDATE | curr_seg.first =  0
+[DEBUG]UPDATE | curr_seg.second =  22
+[DEBUG]UPDATE| Lazy
+[DEBUG]LAZY| curr_seg.first =  0
+[DEBUG]LAZY| curr_seg.second =  22
+[DEBUG]pos =  16
+[DEBUG]value =  -1
+
