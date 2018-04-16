@@ -1,0 +1,37 @@
+[DEBUG]n_cases =  4
+[DEBUG]R =  2
+[DEBUG]C =  2
+[DEBUG]line =  #T
+[DEBUG]line =  S#
+[DEBUG] MATRIX:
+# T 
+S # 
+Possible
+[DEBUG]R =  3
+[DEBUG]C =  2
+[DEBUG]line =  #T
+[DEBUG]line =    
+[DEBUG]line =  S#
+[DEBUG] MATRIX:
+# T 
+    
+S # 
+Possible
+[DEBUG]R =  3
+[DEBUG]C =  2
+[DEBUG]line =  T#
+[DEBUG]line =  # 
+[DEBUG]line =  S#
+[DEBUG] MATRIX:
+T # 
+#   
+S # 
+Possible
+[DEBUG]R =  2
+[DEBUG]C =  4
+[DEBUG]line =  S #T
+[DEBUG]line =    ##
+[DEBUG] MATRIX:
+S   # T 
+    # # 
+Impossible

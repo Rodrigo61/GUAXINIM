@@ -1,0 +1,12 @@
+This is a simple file of test data, which should
+not cause your program any trouble. Do note that
+it contains several punctuation characters. Of course,
+this is not really a problem, because such characters
+are treated in the same way as spaces.
+#
+Don't use contractions; it isn't nice.
+#
+aBc def AbC def dfe ABC
+#
+123
+#
