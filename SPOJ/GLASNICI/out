@@ -1,0 +1,929 @@
+[DEBUG]upper =  1e+09
+[DEBUG]lower =  0
+[DEBUG]mid =  5e+08
+[DEBUG]knowledge begin =  -5e+08
+[DEBUG]knowledge end =  5e+08
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  5e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  2.5e+08
+[DEBUG]knowledge begin =  -2.5e+08
+[DEBUG]knowledge end =  2.5e+08
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  2.5e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  1.25e+08
+[DEBUG]knowledge begin =  -1.25e+08
+[DEBUG]knowledge end =  1.25e+08
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1.25e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  6.25e+07
+[DEBUG]knowledge begin =  -6.25e+07
+[DEBUG]knowledge end =  6.25e+07
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  6.25e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  3.125e+07
+[DEBUG]knowledge begin =  -3.125e+07
+[DEBUG]knowledge end =  3.125e+07
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  3.125e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  1.5625e+07
+[DEBUG]knowledge begin =  -1.5625e+07
+[DEBUG]knowledge end =  1.5625e+07
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1.5625e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  7.8125e+06
+[DEBUG]knowledge begin =  -7.8125e+06
+[DEBUG]knowledge end =  7.8125e+06
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  7.8125e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  3.90625e+06
+[DEBUG]knowledge begin =  -3.90625e+06
+[DEBUG]knowledge end =  3.90625e+06
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  3.90625e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  1.95312e+06
+[DEBUG]knowledge begin =  -1.95313e+06
+[DEBUG]knowledge end =  1.95313e+06
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1.95312e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  976562
+[DEBUG]knowledge begin =  -976566
+[DEBUG]knowledge end =  976566
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  976562
+[DEBUG]lower =  0
+[DEBUG]mid =  488281
+[DEBUG]knowledge begin =  -488284
+[DEBUG]knowledge end =  488284
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  488281
+[DEBUG]lower =  0
+[DEBUG]mid =  244141
+[DEBUG]knowledge begin =  -244144
+[DEBUG]knowledge end =  244144
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  244141
+[DEBUG]lower =  0
+[DEBUG]mid =  122070
+[DEBUG]knowledge begin =  -122073
+[DEBUG]knowledge end =  122073
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  122070
+[DEBUG]lower =  0
+[DEBUG]mid =  61035.2
+[DEBUG]knowledge begin =  -61038.2
+[DEBUG]knowledge end =  61038.2
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  61035.2
+[DEBUG]lower =  0
+[DEBUG]mid =  30517.6
+[DEBUG]knowledge begin =  -30520.6
+[DEBUG]knowledge end =  30520.6
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  30517.6
+[DEBUG]lower =  0
+[DEBUG]mid =  15258.8
+[DEBUG]knowledge begin =  -15261.8
+[DEBUG]knowledge end =  15261.8
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  15258.8
+[DEBUG]lower =  0
+[DEBUG]mid =  7629.39
+[DEBUG]knowledge begin =  -7632.39
+[DEBUG]knowledge end =  7632.39
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  7629.39
+[DEBUG]lower =  0
+[DEBUG]mid =  3814.7
+[DEBUG]knowledge begin =  -3817.7
+[DEBUG]knowledge end =  3817.7
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  3814.7
+[DEBUG]lower =  0
+[DEBUG]mid =  1907.35
+[DEBUG]knowledge begin =  -1910.35
+[DEBUG]knowledge end =  1910.35
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1907.35
+[DEBUG]lower =  0
+[DEBUG]mid =  953.674
+[DEBUG]knowledge begin =  -956.674
+[DEBUG]knowledge end =  956.674
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  953.674
+[DEBUG]lower =  0
+[DEBUG]mid =  476.837
+[DEBUG]knowledge begin =  -479.837
+[DEBUG]knowledge end =  479.837
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  476.837
+[DEBUG]lower =  0
+[DEBUG]mid =  238.419
+[DEBUG]knowledge begin =  -241.419
+[DEBUG]knowledge end =  241.419
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  238.419
+[DEBUG]lower =  0
+[DEBUG]mid =  119.209
+[DEBUG]knowledge begin =  -122.209
+[DEBUG]knowledge end =  122.209
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  119.209
+[DEBUG]lower =  0
+[DEBUG]mid =  59.6046
+[DEBUG]knowledge begin =  -62.6046
+[DEBUG]knowledge end =  62.6046
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  59.6046
+[DEBUG]lower =  0
+[DEBUG]mid =  29.8023
+[DEBUG]knowledge begin =  -32.8023
+[DEBUG]knowledge end =  32.8023
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  29.8023
+[DEBUG]lower =  0
+[DEBUG]mid =  14.9012
+[DEBUG]knowledge begin =  -17.9012
+[DEBUG]knowledge end =  17.9012
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  14.9012
+[DEBUG]lower =  0
+[DEBUG]mid =  7.45058
+[DEBUG]knowledge begin =  -10.4506
+[DEBUG]knowledge end =  10.4506
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  7.45058
+[DEBUG]lower =  0
+[DEBUG]mid =  3.72529
+[DEBUG]knowledge begin =  -6.72529
+[DEBUG]knowledge end =  6.72529
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  3.72529
+[DEBUG]lower =  0
+[DEBUG]mid =  1.86265
+[DEBUG]knowledge begin =  -4.86265
+[DEBUG]knowledge end =  4.86265
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1.86265
+[DEBUG]lower =  0
+[DEBUG]mid =  0.931323
+[DEBUG]knowledge begin =  -3.93132
+[DEBUG]knowledge end =  3.93132
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.931323
+[DEBUG]lower =  0
+[DEBUG]mid =  0.465661
+[DEBUG]knowledge begin =  -3.46566
+[DEBUG]knowledge end =  3.46566
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.465661
+[DEBUG]lower =  0
+[DEBUG]mid =  0.232831
+[DEBUG]knowledge begin =  -3.23283
+[DEBUG]knowledge end =  3.23283
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.232831
+[DEBUG]lower =  0
+[DEBUG]mid =  0.116415
+[DEBUG]knowledge begin =  -3.11642
+[DEBUG]knowledge end =  3.11642
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.116415
+[DEBUG]lower =  0
+[DEBUG]mid =  0.0582077
+[DEBUG]knowledge begin =  -3.05821
+[DEBUG]knowledge end =  3.05821
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.0582077
+[DEBUG]lower =  0
+[DEBUG]mid =  0.0291038
+[DEBUG]knowledge begin =  -3.0291
+[DEBUG]knowledge end =  3.0291
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.0291038
+[DEBUG]lower =  0
+[DEBUG]mid =  0.0145519
+[DEBUG]knowledge begin =  -3.01455
+[DEBUG]knowledge end =  3.01455
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.0145519
+[DEBUG]lower =  0
+[DEBUG]mid =  0.00727596
+[DEBUG]knowledge begin =  -3.00728
+[DEBUG]knowledge end =  3.00728
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.00727596
+[DEBUG]lower =  0
+[DEBUG]mid =  0.00363798
+[DEBUG]knowledge begin =  -3.00364
+[DEBUG]knowledge end =  3.00364
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.00363798
+[DEBUG]lower =  0
+[DEBUG]mid =  0.00181899
+[DEBUG]knowledge begin =  -3.00182
+[DEBUG]knowledge end =  3.00182
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.00181899
+[DEBUG]lower =  0
+[DEBUG]mid =  0.000909495
+[DEBUG]knowledge begin =  -3.00091
+[DEBUG]knowledge end =  3.00091
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.000909495
+[DEBUG]lower =  0
+[DEBUG]mid =  0.000454747
+[DEBUG]knowledge begin =  -3.00045
+[DEBUG]knowledge end =  3.00045
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.000454747
+[DEBUG]lower =  0
+[DEBUG]mid =  0.000227374
+[DEBUG]knowledge begin =  -3.00023
+[DEBUG]knowledge end =  3.00023
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.000227374
+[DEBUG]lower =  0
+[DEBUG]mid =  0.000113687
+[DEBUG]knowledge begin =  -3.00011
+[DEBUG]knowledge end =  3.00011
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  0.000113687
+[DEBUG]lower =  0
+[DEBUG]mid =  5.68434e-05
+[DEBUG]knowledge begin =  -3.00006
+[DEBUG]knowledge end =  3.00006
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  5.68434e-05
+[DEBUG]lower =  0
+[DEBUG]mid =  2.84217e-05
+[DEBUG]knowledge begin =  -3.00003
+[DEBUG]knowledge end =  3.00003
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  2.84217e-05
+[DEBUG]lower =  0
+[DEBUG]mid =  1.42109e-05
+[DEBUG]knowledge begin =  -3.00001
+[DEBUG]knowledge end =  3.00001
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1.42109e-05
+[DEBUG]lower =  0
+[DEBUG]mid =  7.10543e-06
+[DEBUG]knowledge begin =  -3.00001
+[DEBUG]knowledge end =  3.00001
+[DEBUG]msg_it =  6
+[DEBUG]possible
+[DEBUG]upper =  1e+09
+[DEBUG]lower =  0
+[DEBUG]mid =  5e+08
+[DEBUG]knowledge begin =  -5e+08
+[DEBUG]knowledge end =  5e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -5e+08
+[DEBUG]knowledge end =  5e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -5e+08
+[DEBUG]knowledge end =  5e+08
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  5e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  2.5e+08
+[DEBUG]knowledge begin =  -2.5e+08
+[DEBUG]knowledge end =  2.5e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -2.5e+08
+[DEBUG]knowledge end =  2.5e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -2.5e+08
+[DEBUG]knowledge end =  2.5e+08
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.5e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  1.25e+08
+[DEBUG]knowledge begin =  -1.25e+08
+[DEBUG]knowledge end =  1.25e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.25e+08
+[DEBUG]knowledge end =  1.25e+08
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.25e+08
+[DEBUG]knowledge end =  1.25e+08
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  1.25e+08
+[DEBUG]lower =  0
+[DEBUG]mid =  6.25e+07
+[DEBUG]knowledge begin =  -6.25e+07
+[DEBUG]knowledge end =  6.25e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -6.25e+07
+[DEBUG]knowledge end =  6.25e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -6.25e+07
+[DEBUG]knowledge end =  6.25e+07
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  6.25e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  3.125e+07
+[DEBUG]knowledge begin =  -3.125e+07
+[DEBUG]knowledge end =  3.125e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.125e+07
+[DEBUG]knowledge end =  3.125e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.125e+07
+[DEBUG]knowledge end =  3.125e+07
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  3.125e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  1.5625e+07
+[DEBUG]knowledge begin =  -1.5625e+07
+[DEBUG]knowledge end =  1.5625e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.5625e+07
+[DEBUG]knowledge end =  1.5625e+07
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.5625e+07
+[DEBUG]knowledge end =  1.5625e+07
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  1.5625e+07
+[DEBUG]lower =  0
+[DEBUG]mid =  7.8125e+06
+[DEBUG]knowledge begin =  -7.8125e+06
+[DEBUG]knowledge end =  7.8125e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -7.8125e+06
+[DEBUG]knowledge end =  7.8125e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -7.8125e+06
+[DEBUG]knowledge end =  7.8125e+06
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  7.8125e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  3.90625e+06
+[DEBUG]knowledge begin =  -3.90625e+06
+[DEBUG]knowledge end =  3.90625e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.90625e+06
+[DEBUG]knowledge end =  3.90625e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.90625e+06
+[DEBUG]knowledge end =  3.90625e+06
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  3.90625e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  1.95312e+06
+[DEBUG]knowledge begin =  -1.95313e+06
+[DEBUG]knowledge end =  1.95313e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.95313e+06
+[DEBUG]knowledge end =  1.95313e+06
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1.95313e+06
+[DEBUG]knowledge end =  1.95313e+06
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  1.95312e+06
+[DEBUG]lower =  0
+[DEBUG]mid =  976562
+[DEBUG]knowledge begin =  -976564
+[DEBUG]knowledge end =  976564
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -976564
+[DEBUG]knowledge end =  976564
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -976564
+[DEBUG]knowledge end =  976564
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  976562
+[DEBUG]lower =  0
+[DEBUG]mid =  488281
+[DEBUG]knowledge begin =  -488283
+[DEBUG]knowledge end =  488283
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -488283
+[DEBUG]knowledge end =  488283
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -488283
+[DEBUG]knowledge end =  488283
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  488281
+[DEBUG]lower =  0
+[DEBUG]mid =  244141
+[DEBUG]knowledge begin =  -244143
+[DEBUG]knowledge end =  244143
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -244143
+[DEBUG]knowledge end =  244143
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -244143
+[DEBUG]knowledge end =  244143
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  244141
+[DEBUG]lower =  0
+[DEBUG]mid =  122070
+[DEBUG]knowledge begin =  -122072
+[DEBUG]knowledge end =  122072
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -122072
+[DEBUG]knowledge end =  122072
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -122072
+[DEBUG]knowledge end =  122072
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  122070
+[DEBUG]lower =  0
+[DEBUG]mid =  61035.2
+[DEBUG]knowledge begin =  -61037.2
+[DEBUG]knowledge end =  61037.2
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -61037.2
+[DEBUG]knowledge end =  61037.2
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -61037.2
+[DEBUG]knowledge end =  61037.2
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  61035.2
+[DEBUG]lower =  0
+[DEBUG]mid =  30517.6
+[DEBUG]knowledge begin =  -30519.6
+[DEBUG]knowledge end =  30519.6
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -30519.6
+[DEBUG]knowledge end =  30519.6
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -30519.6
+[DEBUG]knowledge end =  30519.6
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  30517.6
+[DEBUG]lower =  0
+[DEBUG]mid =  15258.8
+[DEBUG]knowledge begin =  -15260.8
+[DEBUG]knowledge end =  15260.8
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -15260.8
+[DEBUG]knowledge end =  15260.8
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -15260.8
+[DEBUG]knowledge end =  15260.8
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  15258.8
+[DEBUG]lower =  0
+[DEBUG]mid =  7629.39
+[DEBUG]knowledge begin =  -7631.39
+[DEBUG]knowledge end =  7631.39
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -7631.39
+[DEBUG]knowledge end =  7631.39
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -7631.39
+[DEBUG]knowledge end =  7631.39
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  7629.39
+[DEBUG]lower =  0
+[DEBUG]mid =  3814.7
+[DEBUG]knowledge begin =  -3816.7
+[DEBUG]knowledge end =  3816.7
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3816.7
+[DEBUG]knowledge end =  3816.7
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3816.7
+[DEBUG]knowledge end =  3816.7
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  3814.7
+[DEBUG]lower =  0
+[DEBUG]mid =  1907.35
+[DEBUG]knowledge begin =  -1909.35
+[DEBUG]knowledge end =  1909.35
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1909.35
+[DEBUG]knowledge end =  1909.35
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -1909.35
+[DEBUG]knowledge end =  1909.35
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  1907.35
+[DEBUG]lower =  0
+[DEBUG]mid =  953.674
+[DEBUG]knowledge begin =  -955.674
+[DEBUG]knowledge end =  955.674
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -955.674
+[DEBUG]knowledge end =  955.674
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -955.674
+[DEBUG]knowledge end =  955.674
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  953.674
+[DEBUG]lower =  0
+[DEBUG]mid =  476.837
+[DEBUG]knowledge begin =  -478.837
+[DEBUG]knowledge end =  478.837
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -478.837
+[DEBUG]knowledge end =  478.837
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -478.837
+[DEBUG]knowledge end =  478.837
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  476.837
+[DEBUG]lower =  0
+[DEBUG]mid =  238.419
+[DEBUG]knowledge begin =  -240.419
+[DEBUG]knowledge end =  240.419
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -240.419
+[DEBUG]knowledge end =  240.419
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -240.419
+[DEBUG]knowledge end =  240.419
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  238.419
+[DEBUG]lower =  0
+[DEBUG]mid =  119.209
+[DEBUG]knowledge begin =  -121.209
+[DEBUG]knowledge end =  121.209
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -121.209
+[DEBUG]knowledge end =  121.209
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -121.209
+[DEBUG]knowledge end =  121.209
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  119.209
+[DEBUG]lower =  0
+[DEBUG]mid =  59.6046
+[DEBUG]knowledge begin =  -61.6046
+[DEBUG]knowledge end =  61.6046
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -61.6046
+[DEBUG]knowledge end =  61.6046
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -61.6046
+[DEBUG]knowledge end =  61.6046
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  59.6046
+[DEBUG]lower =  0
+[DEBUG]mid =  29.8023
+[DEBUG]knowledge begin =  -31.8023
+[DEBUG]knowledge end =  31.8023
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -31.8023
+[DEBUG]knowledge end =  31.8023
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -31.8023
+[DEBUG]knowledge end =  31.8023
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  29.8023
+[DEBUG]lower =  0
+[DEBUG]mid =  14.9012
+[DEBUG]knowledge begin =  -16.9012
+[DEBUG]knowledge end =  16.9012
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -16.9012
+[DEBUG]knowledge end =  16.9012
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -16.9012
+[DEBUG]knowledge end =  16.9012
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  14.9012
+[DEBUG]lower =  0
+[DEBUG]mid =  7.45058
+[DEBUG]knowledge begin =  -9.45058
+[DEBUG]knowledge end =  9.45058
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -9.45058
+[DEBUG]knowledge end =  9.45058
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -9.45058
+[DEBUG]knowledge end =  9.45058
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  7.45058
+[DEBUG]lower =  0
+[DEBUG]mid =  3.72529
+[DEBUG]knowledge begin =  -5.72529
+[DEBUG]knowledge end =  5.72529
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -5.72529
+[DEBUG]knowledge end =  5.72529
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -5.72529
+[DEBUG]knowledge end =  5.72529
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  3.72529
+[DEBUG]lower =  0
+[DEBUG]mid =  1.86265
+[DEBUG]knowledge begin =  -3.86265
+[DEBUG]knowledge end =  3.86265
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.86265
+[DEBUG]knowledge end =  3.86265
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.86265
+[DEBUG]knowledge end =  3.86265
+[DEBUG]msg_it =  8
+[DEBUG]impossible
+[DEBUG]upper =  3.72529
+[DEBUG]lower =  1.86365
+[DEBUG]mid =  2.79447
+[DEBUG]knowledge begin =  -4.79447
+[DEBUG]knowledge end =  4.79447
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.79447
+[DEBUG]knowledge end =  4.79447
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.79447
+[DEBUG]knowledge end =  4.79447
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.79447
+[DEBUG]lower =  1.86365
+[DEBUG]mid =  2.32906
+[DEBUG]knowledge begin =  -4.32906
+[DEBUG]knowledge end =  4.32906
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.32906
+[DEBUG]knowledge end =  4.32906
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.32906
+[DEBUG]knowledge end =  4.32906
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.32906
+[DEBUG]lower =  1.86365
+[DEBUG]mid =  2.09635
+[DEBUG]knowledge begin =  -4.09635
+[DEBUG]knowledge end =  4.09635
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.09635
+[DEBUG]knowledge end =  4.09635
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.09635
+[DEBUG]knowledge end =  4.09635
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.09635
+[DEBUG]lower =  1.86365
+[DEBUG]mid =  1.98
+[DEBUG]knowledge begin =  -3.98
+[DEBUG]knowledge end =  3.98
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.98
+[DEBUG]knowledge end =  3.98
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.98
+[DEBUG]knowledge end =  3.98
+[DEBUG]msg_it =  8
+[DEBUG]impossible
+[DEBUG]upper =  2.09635
+[DEBUG]lower =  1.981
+[DEBUG]mid =  2.03867
+[DEBUG]knowledge begin =  -4.03867
+[DEBUG]knowledge end =  4.03867
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.03867
+[DEBUG]knowledge end =  4.03867
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.03867
+[DEBUG]knowledge end =  4.03867
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.03867
+[DEBUG]lower =  1.981
+[DEBUG]mid =  2.00984
+[DEBUG]knowledge begin =  -4.00984
+[DEBUG]knowledge end =  4.00984
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00984
+[DEBUG]knowledge end =  4.00984
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00984
+[DEBUG]knowledge end =  4.00984
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00984
+[DEBUG]lower =  1.981
+[DEBUG]mid =  1.99542
+[DEBUG]knowledge begin =  -3.99542
+[DEBUG]knowledge end =  3.99542
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.99542
+[DEBUG]knowledge end =  3.99542
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.99542
+[DEBUG]knowledge end =  3.99542
+[DEBUG]msg_it =  8
+[DEBUG]impossible
+[DEBUG]upper =  2.00984
+[DEBUG]lower =  1.99642
+[DEBUG]mid =  2.00313
+[DEBUG]knowledge begin =  -4.00313
+[DEBUG]knowledge end =  4.00313
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00313
+[DEBUG]knowledge end =  4.00313
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00313
+[DEBUG]knowledge end =  4.00313
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00313
+[DEBUG]lower =  1.99642
+[DEBUG]mid =  1.99977
+[DEBUG]knowledge begin =  -3.99977
+[DEBUG]knowledge end =  3.99977
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.99977
+[DEBUG]knowledge end =  3.99977
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -3.99977
+[DEBUG]knowledge end =  3.99977
+[DEBUG]msg_it =  8
+[DEBUG]impossible
+[DEBUG]upper =  2.00313
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00195
+[DEBUG]knowledge begin =  -4.00195
+[DEBUG]knowledge end =  4.00195
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00195
+[DEBUG]knowledge end =  4.00195
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00195
+[DEBUG]knowledge end =  4.00195
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00195
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00136
+[DEBUG]knowledge begin =  -4.00136
+[DEBUG]knowledge end =  4.00136
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00136
+[DEBUG]knowledge end =  4.00136
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00136
+[DEBUG]knowledge end =  4.00136
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00136
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00107
+[DEBUG]knowledge begin =  -4.00107
+[DEBUG]knowledge end =  4.00107
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00107
+[DEBUG]knowledge end =  4.00107
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00107
+[DEBUG]knowledge end =  4.00107
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00107
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00092
+[DEBUG]knowledge begin =  -4.00092
+[DEBUG]knowledge end =  4.00092
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00092
+[DEBUG]knowledge end =  4.00092
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00092
+[DEBUG]knowledge end =  4.00092
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00092
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00085
+[DEBUG]knowledge begin =  -4.00085
+[DEBUG]knowledge end =  4.00085
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00085
+[DEBUG]knowledge end =  4.00085
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00085
+[DEBUG]knowledge end =  4.00085
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00085
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00081
+[DEBUG]knowledge begin =  -4.00081
+[DEBUG]knowledge end =  4.00081
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00081
+[DEBUG]knowledge end =  4.00081
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00081
+[DEBUG]knowledge end =  4.00081
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00081
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00079
+[DEBUG]knowledge begin =  -4.00079
+[DEBUG]knowledge end =  4.00079
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00079
+[DEBUG]knowledge end =  4.00079
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00079
+[DEBUG]knowledge end =  4.00079
+[DEBUG]msg_it =  8
+[DEBUG]possible
+[DEBUG]upper =  2.00079
+[DEBUG]lower =  2.00077
+[DEBUG]mid =  2.00078
+[DEBUG]knowledge begin =  -4.00078
+[DEBUG]knowledge end =  4.00078
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00078
+[DEBUG]knowledge end =  4.00078
+[DEBUG]msg_it =  4
+[DEBUG]knowledge begin =  -4.00078
+[DEBUG]knowledge end =  4.00078
+[DEBUG]msg_it =  8
+[DEBUG]possible
+0.000
+2.001

@@ -1,0 +1,1062 @@
+desc: --stacks=yes
+cmd: ./lab
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3613969
+mem_heap_B=2599099
+mem_heap_extra_B=6445
+mem_stacks_B=1408
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6468385
+mem_heap_B=2604542
+mem_heap_extra_B=17682
+mem_stacks_B=1056
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=10302032
+mem_heap_B=2621258
+mem_heap_extra_B=34398
+mem_stacks_B=624
+heap_tree=detailed
+n4: 2621258 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n3: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n1: 32768 0x4ECF301: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF31B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF335: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 50250 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=16436250
+mem_heap_B=2648006
+mem_heap_extra_B=61146
+mem_stacks_B=808
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=19535265
+mem_heap_B=2660777
+mem_heap_extra_B=73143
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=22943841
+mem_heap_B=2667896
+mem_heap_extra_B=122784
+mem_stacks_B=720
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=27708616
+mem_heap_B=2652053
+mem_heap_extra_B=100899
+mem_stacks_B=1056
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=33314267
+mem_heap_B=2680557
+mem_heap_extra_B=121259
+mem_stacks_B=824
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=37122010
+mem_heap_B=2699926
+mem_heap_extra_B=135082
+mem_stacks_B=616
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=42559230
+mem_heap_B=2727583
+mem_heap_extra_B=154849
+mem_stacks_B=824
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=46746524
+mem_heap_B=2748891
+mem_heap_extra_B=170069
+mem_stacks_B=1200
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=50516349
+mem_heap_B=2768057
+mem_heap_extra_B=183759
+mem_stacks_B=760
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=53426376
+mem_heap_B=2782869
+mem_heap_extra_B=194339
+mem_stacks_B=1200
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=57551744
+mem_heap_B=2803855
+mem_heap_extra_B=209329
+mem_stacks_B=1208
+heap_tree=detailed
+n5: 2803855 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 208271 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 208271 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n3: 208271 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 172984 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 172984 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 172984 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 86520 0x4011F7: solve(int) (main.cpp:169)
+        n0: 86520 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 86464 0x4012BC: solve(int) (main.cpp:178)
+        n0: 86464 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 30240 0x4055E3: std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long) (stl_vector.h:185)
+     n1: 30240 0x405361: std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) (stl_vector.h:136)
+      n1: 30240 0x404F9E: std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) (stl_vector.h:320)
+       n1: 30240 0x404B7B: void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> >&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >&) (stl_construct.h:75)
+        n1: 30240 0x404309: std::vector<char, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) (stl_uninitialized.h:75)
+         n1: 30240 0x40371C: std::vector<char, std::allocator<char> >* std::uninitialized_copy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) (stl_uninitialized.h:126)
+          n1: 30240 0x40293F: std::vector<char, std::allocator<char> >* std::__uninitialized_copy_a<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&) (stl_uninitialized.h:281)
+           n1: 30240 0x401AED: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > const&) (vector.tcc:213)
+            n2: 30240 0x401121: solve(int) (main.cpp:159)
+             n0: 30240 0x4013DE: main (main.cpp:201)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 5047 in 3 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n3: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n1: 32768 0x4ECF301: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF31B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF335: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=63114151
+mem_heap_B=2832149
+mem_heap_extra_B=229539
+mem_stacks_B=1152
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=69433468
+mem_heap_B=2864293
+mem_heap_extra_B=252499
+mem_stacks_B=1152
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=75194069
+mem_heap_B=2893595
+mem_heap_extra_B=273429
+mem_stacks_B=1208
+heap_tree=detailed
+n5: 2893595 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 298011 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 298011 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 298011 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 262724 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 262724 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 262724 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 131376 0x4011F7: solve(int) (main.cpp:169)
+        n0: 131376 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 131348 0x4012BC: solve(int) (main.cpp:178)
+        n0: 131348 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35287 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n3: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n1: 32768 0x4ECF301: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF31B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF335: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=78829871
+mem_heap_B=2912089
+mem_heap_extra_B=286639
+mem_stacks_B=1208
+heap_tree=detailed
+n5: 2912089 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 316505 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 316505 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 316505 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 281218 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 281218 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 281218 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 140658 0x4011F7: solve(int) (main.cpp:169)
+        n0: 140658 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 140560 0x4012BC: solve(int) (main.cpp:178)
+        n0: 140560 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35287 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n3: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n1: 32768 0x4ECF301: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF31B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF335: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=82339071
+mem_heap_B=2929939
+mem_heap_extra_B=299389
+mem_stacks_B=1200
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=86208827
+mem_heap_B=2949623
+mem_heap_extra_B=313449
+mem_stacks_B=1208
+heap_tree=detailed
+n5: 2949623 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 354039 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 354039 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 354039 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 318752 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 318752 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 318752 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 159376 0x4011F7: solve(int) (main.cpp:169)
+        n0: 159376 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 159376 0x4012BC: solve(int) (main.cpp:178)
+        n0: 159376 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35287 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n3: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n1: 32768 0x4ECF301: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF31B: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+   n1: 32768 0x4ECF335: std::ios_base::sync_with_stdio(bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+    n0: 32768 0x401387: main (main.cpp:191)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=91131913
+mem_heap_B=2974655
+mem_heap_extra_B=331329
+mem_stacks_B=688
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=97267941
+mem_heap_B=3005875
+mem_heap_extra_B=353629
+mem_stacks_B=1152
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=101088127
+mem_heap_B=3025307
+mem_heap_extra_B=367509
+mem_stacks_B=1120
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=104946829
+mem_heap_B=3044935
+mem_heap_extra_B=381529
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=107665516
+mem_heap_B=3058767
+mem_heap_extra_B=391409
+mem_stacks_B=624
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=111599915
+mem_heap_B=3078787
+mem_heap_extra_B=405709
+mem_stacks_B=728
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=114395615
+mem_heap_B=3093025
+mem_heap_extra_B=415879
+mem_stacks_B=728
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=118409779
+mem_heap_B=3113451
+mem_heap_extra_B=430469
+mem_stacks_B=728
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=122462462
+mem_heap_B=3134073
+mem_heap_extra_B=445199
+mem_stacks_B=728
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=128910778
+mem_heap_B=3166875
+mem_heap_extra_B=468629
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=133690944
+mem_heap_B=3191207
+mem_heap_extra_B=486009
+mem_stacks_B=1200
+heap_tree=peak
+n5: 3191207 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 595623 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 595623 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 595623 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 560336 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 560336 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 560336 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 280224 0x4011F7: solve(int) (main.cpp:169)
+        n0: 280224 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 280112 0x4012BC: solve(int) (main.cpp:178)
+        n0: 280112 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35287 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=137222479
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=140382563
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=145122679
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=148282756
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=153022881
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=159343059
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=165663227
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=171983385
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=176723501
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=179883584
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=184623703
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=189363843
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=194103961
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=198844085
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=203584204
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=312
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=206744288
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=211484406
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=216224541
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=218943237
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=221661935
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=440
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=224380629
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=227099328
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=229818029
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=232536727
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=235255423
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=432
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=237974120
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=240692807
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=243411497
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=246130185
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=304
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=248848885
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=251567588
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=288
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=254286289
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=456
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=257004987
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=456
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=259723677
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=262442375
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=496
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=265161085
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=267879783
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=270598471
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=456
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=273317171
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=276035874
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=288
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=278754566
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=281473255
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=284191947
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=424
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=286910645
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=424
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=289629342
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=464
+heap_tree=detailed
+n5: 3195344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2400000 0x4048CD: __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2400000 0x404139: std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 2400000 0x403528: std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2400000 0x402F14: std::vector<char, std::allocator<char> >* std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate_and_copy<std::move_iterator<std::vector<char, std::allocator<char> >*> >(unsigned long, std::move_iterator<std::vector<char, std::allocator<char> >*>, std::move_iterator<std::vector<char, std::allocator<char> >*>) (stl_vector.h:1224)
+     n2: 2400000 0x402041: std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::reserve(unsigned long) (vector.tcc:75)
+      n0: 1200000 0x4013B6: main (main.cpp:197)
+      n0: 1200000 0x4013C5: main (main.cpp:198)
+ n1: 599760 0x4047D8: __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 599760 0x403EF7: std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) (alloc_traits.h:491)
+   n2: 599760 0x4031F0: std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 564480 0x403BDD: void std::vector<char, std::allocator<char> >::_M_insert_aux<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:353)
+     n1: 564480 0x402E38: __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::vector<char, std::allocator<char> >::emplace<char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (vector.tcc:313)
+      n2: 564480 0x401FAA: std::vector<char, std::allocator<char> >::insert(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char&&) (stl_vector.h:1015)
+       n2: 282240 0x4011F7: solve(int) (main.cpp:169)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 282240 0x4012BC: solve(int) (main.cpp:178)
+        n0: 282240 0x4013DE: main (main.cpp:201)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 35280 in 4 places, all below massif's threshold (1.00%)
+ n1: 98304 0x4F1F2E9: std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 98304 0x4F1B2D1: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+   n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 24576 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=292348040
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=295066752
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=297785454
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=312
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=300504142
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=296
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=303222834
+mem_heap_B=3195344
+mem_heap_extra_B=488952
+mem_stacks_B=264
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=305941534
+mem_heap_B=3193363
+mem_heap_extra_B=484141
+mem_stacks_B=624
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=308660224
+mem_heap_B=1831488
+mem_heap_extra_B=311424
+mem_stacks_B=568
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=311378914
+mem_heap_B=1636300
+mem_heap_extra_B=172004
+mem_stacks_B=568
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=314097604
+mem_heap_B=1441112
+mem_heap_extra_B=32584
+mem_stacks_B=568
+heap_tree=empty

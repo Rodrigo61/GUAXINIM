@@ -27,4 +27,12 @@ o range, pois nem sempre isso causa runtime error. ++it sempre tem que verificar
 
 * Lembre-se que sqrt e divisoes sao truncadas.
 
-* Se estiver trabalhando com double, prefira trabalhar tudo em double para nao ocorrer erros de truncamento.
+* Se estiver trabalhando com double, prefira trabalhar tudo em double para nao ocorrer erros de truncamento. O mesmo vale para Long long.
+
+* Se estiver estourando memória, veja se nao é possivel alocar o vetor de acordo com a necessidade.
+
+* Lembre-se que alocacao de estruturas sao lineares. Em BFS/DFS é possivel usar pairs para evitar alocacao de estruturas de tamanho N quando os algoritmos forem em cima de florestas.
+
+* Avalie as dimensoes da PD, é possivel reduzir?
+
+* Sempre comece com DP top-down, adpte para bottom-up soh em TLE

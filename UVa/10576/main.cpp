@@ -34,7 +34,10 @@ using namespace std;
 #define space " "
 
 typedef pair<int,int> pii;
+typedef long long ll;
+typedef vector<ll> vll;
 typedef vector<int> vi;
+typedef vector<pii> vii;
 
 
 /// Debug Start
@@ -136,15 +139,55 @@ void print_matrix_debug(const T& t) {
         }
     }
 }
-//</editor-fold desc="GUAXINIM TEMPLATE">
+//</editor-fold>
 
+ll surplus, deficit;
+vi month_situation;
 
+ll solve(int curr_month, ll curr_liquid, ll acu_total) {
 
+    if (curr_month >= 6 && curr_liquid >= 0) {
+        return -1;
+    }
+
+    if (curr_month == 13) {
+        return acu_total;
+    }
+
+    if (curr_month >= 6) {
+        if (month_situation[curr_month - 5] == 1) {
+            curr_liquid -= surplus;
+        } else {
+            curr_liquid += deficit;
+        }
+    }
+
+    month_situation[curr_month] = 1;
+    ll surplus_choice = solve(curr_month + 1, curr_liquid + surplus, acu_total + surplus);
+
+    month_situation[curr_month] = 0;
+    ll deficit_choice = solve(curr_month + 1, curr_liquid - deficit, acu_total - deficit);
+
+    return max(surplus_choice, deficit_choice);
+}
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
 
+    month_situation.resize(13);
+
+    while (cin >> surplus >> deficit) {
+
+
+        ll liquid = solve(1, 0, 0);
+
+        if (liquid < 0) {
+            printf("Deficit\n");
+        } else {
+            printf("%lld\n", liquid);
+        }
+    }
 
     return 0;
 }

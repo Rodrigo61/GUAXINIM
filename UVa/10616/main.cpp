@@ -154,8 +154,8 @@ long long solve(int idx, int left, int sum){
 
     long long &res = memo[idx][left][sum];
 
-    int temp_sum = (sum + A[idx])%D;
-    temp_sum = (temp_sum + D)%D;
+    int temp_sum = (sum + (A[idx] % D))%D;
+    temp_sum = (temp_sum + D)%D; // evitando resto negativo
 
     res = solve(idx+1, left-1, temp_sum) + solve(idx+1, left, sum);
 

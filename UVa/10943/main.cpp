@@ -141,29 +141,50 @@ void print_matrix_debug(const T& t) {
 }
 //</editor-fold>
 
+#define MOD 1000000
+
+int N, K;
+vector<vi> memo;
+
+int solve(int remaining_slots, int curr_sum) {
+
+    if (remaining_slots == 0) {
+
+        if (curr_sum == N) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    if(curr_sum > N) { return 0; }
+
+    int &res = memo[curr_sum][remaining_slots];
+
+    if (res != -1)
+        return res;
+
+    res = 0;
+    for (size_t i = 0; i <= N; i++) {
+        res += solve(remaining_slots - 1, curr_sum + i);
+        res %= MOD;
+    }
+
+    return res;
+}
+
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
 
-    int N, K;
 
     while(cin >> N >> K, N+K != 0){
 
-        vi coins(N+1);
-        for(int i = 0; i < N+1; ++i){
-            coins[i] = i;
-        }
+        memo.clear();
+        memo.resize(N + 1, vi(K + 1, -1));
 
-        long long dp[N+1];
-        memset(dp, 0, sizeof(dp));
-        dp[0] = 1;
-
-        for(auto &coin : coins){
-            for (int i = coin; i < count; i++) {
-                /* code */
-            }
-        }
+        cout << solve(K, 0) << endl;
     }
 
     return 0;
