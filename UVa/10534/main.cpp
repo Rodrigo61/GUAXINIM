@@ -142,24 +142,24 @@ void print_matrix_debug(const T& t) {
 //</editor-fold>
 
 
-vi get_LIS(vi &values) {
+void get_LIS(vi &values, vi &res) {
 
     int sz = values.size();
-    vi res(sz);
+    res.resize(sz);
 
-    vector<size_t> L(sz);
-    size_t lisCount = 0;
-    for (size_t i = 0; i < sz; ++i)
-    {
-        size_t pos = lower_bound(L.begin(), L.begin() + lisCount, values[i])
-                     - L.begin();
-        L[pos] = values[i];
-        if (pos == lisCount)
-            ++lisCount;
-        res[i] = pos + 1;
+    vi ends_list(sz);
+    int max_size = 0;
+    for (size_t i = 0; i < sz; ++i) {
+        int pos = distance(ends_list.begin(), lower_bound(ends_list.begin(), ends_list.begin() + max_size, values[i]));
+
+        ends_list[pos] = values[i];
+        
+	if (pos == max_size)
+            max_size = pos + 1;
+        
+	res[i] = max_size;
     }
 
-    return res;
 }
 
 vi get_LDS(vi &values) {
@@ -193,10 +193,12 @@ int main(){
             cin >> values[i];
         }
 
-        vi LIS = get_LIS(values);
+        vi LIS; 
+	get_LIS(values, LIS);
 
         reverse(all(values));
-        vi LDS = get_LIS(values);
+        vi LDS;
+	get_LIS(values, LDS);
         reverse(all(LDS));
 
         int max_wavio_sz = 0;

@@ -36,3 +36,5 @@ o range, pois nem sempre isso causa runtime error. ++it sempre tem que verificar
 * Avalie as dimensoes da PD, é possivel reduzir?
 
 * Sempre comece com DP top-down, adpte para bottom-up soh em TLE
+
+* Sempre considere usar um set inves de um vetor/lista para vet_adj em grafos, especialmente quando existirem remocao de arestas.

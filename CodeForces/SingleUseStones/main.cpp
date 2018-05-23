@@ -144,27 +144,6 @@ void print_matrix_debug(const T& t) {
 int N, jump_sz;
 vi stones;
 
-ll solve(int curr_pos, ll remaining_frogs) {
-
-
-    if (curr_pos >= N - 1) {
-        return remaining_frogs;
-    }
-
-
-    remaining_frogs = min(remaining_frogs, (ll)stones[curr_pos]);
-    ll total_succeced_frogs = 0;
-
-    for (int i = jump_sz; i > 0 && remaining_frogs > 0; --i) {
-        ll succeced_frogs_count = solve(curr_pos + i, remaining_frogs);
-        total_succeced_frogs += succeced_frogs_count;
-        remaining_frogs -= succeced_frogs_count;
-    }
-
-    stones[curr_pos] -= total_succeced_frogs;
-
-    return total_succeced_frogs;
-}
 
 int main(){
     ios_base::sync_with_stdio(false);
@@ -177,12 +156,24 @@ int main(){
         cin >> stones[i];
     }
 
-    ll res = 0;
-    for (size_t i = 0; i < jump_sz; i++) {
-        deb("i = ", i);
-        res += solve(i, 9999999999);
+    ll min_sum = 999999999;
+
+    auto L = stones.begin();
+    auto R = L + jump_sz - 1;
+
+    ll sum = 0;
+    for (auto i = L; i != R + 1; ++i) {
+        sum += *i;
     }
 
-    cout << res << endl;
+    while (R != stones.end()) {
+        min_sum = min(min_sum, sum);
+        sum -= *L;
+        ++L;
+        ++R;
+        sum += *R;
+    }
+
+    cout << min_sum << endl;
     return 0;
 }

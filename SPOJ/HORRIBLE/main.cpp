@@ -144,21 +144,13 @@ private:
 
         if(lazy_tree[node] != 0){
 
-            deb("lazy | curr_seg.first = ", curr_seg.first);
-            deb("lazy | curr_seg.second = ", curr_seg.second);
-
             int seg_sz = curr_seg.second - curr_seg.first + 1;
             long long int value = lazy_tree[node];
-            deb("lazy | seg_sz = ", seg_sz);
-            deb("lazy | value = ", value);
-            deb("lazy | tree[node] BEFORE= ", tree[node]);
 
             tree[node] += seg_sz*value;
-            deb("lazy | tree[node] AFTER= ", tree[node]);
 
             if(curr_seg.first != curr_seg.second){
                 /* Propagate, not a leaf */
-                deb("PROPAGATED");
                 lazy_tree[LEFT_NODE(node)] += value;
                 lazy_tree[RIGHT_NODE(node)] += value;
             }
@@ -174,9 +166,6 @@ private:
 
         if(curr_seg.second < target_seg.first || curr_seg.first > target_seg.second){
             /* Disjoint */
-            deb("update | curr_seg.first = ", curr_seg.first);
-            deb("update | curr_seg.second = ", curr_seg.second);
-            deb("update | disjoint ");
             return;
         }
 
@@ -184,9 +173,6 @@ private:
             /* Within */
             lazy_tree[node] = value;
             lazy_update(curr_seg, node);
-            deb("update | curr_seg.first = ", curr_seg.first);
-            deb("update | curr_seg.second = ", curr_seg.second);
-            deb("update | within tree[node ] = ", tree[node]);
             return;
         }
 
@@ -195,9 +181,6 @@ private:
         update_aux(RIGHT_SEG(curr_seg), target_seg, value, RIGHT_NODE(node));
 
         tree[node] = tree[LEFT_NODE(node)] + tree[RIGHT_NODE(node)];
-        deb("update | curr_seg.first = ", curr_seg.first);
-        deb("update | curr_seg.second = ", curr_seg.second);
-        deb("update | Overlap tree[node ] = ", tree[node]);
 
     }
 
@@ -236,6 +219,8 @@ public:
         return value_aux(make_pair(0, sz - 1), target_seg, 0);
     }
 };
+
+
 int main(){
     ios_base::sync_with_stdio(false);
 

@@ -1,0 +1,228 @@
+duplicado = 27
+Adj 40: 1 12 24 23 47 44 37 24 37 14 
+110
+Case #1
+[DEBUG]u =  8
+[DEBUG]vet_adj[u].size() =  4
+[DEBUG]v =  23
+[DEBUG]u =  23
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  40
+[DEBUG]u =  40
+[DEBUG]vet_adj[u].size() =  9
+[DEBUG]v =  1
+[DEBUG]u =  1
+[DEBUG]vet_adj[u].size() =  7
+[DEBUG]v =  22
+[DEBUG]u =  22
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  27
+[DEBUG]u =  27
+[DEBUG]vet_adj[u].size() =  5
+[DEBUG]v =  16
+[DEBUG]u =  16
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  9
+[DEBUG]u =  9
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  12
+[DEBUG]u =  12
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  40
+[DEBUG]u =  40
+[DEBUG]vet_adj[u].size() =  7
+[DEBUG]v =  24
+[DEBUG]u =  24
+[DEBUG]vet_adj[u].size() =  5
+[DEBUG]v =  28
+[DEBUG]u =  28
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  8
+[DEBUG]u =  8
+[DEBUG]vet_adj[u].size() =  2
+[DEBUG]v =  27
+[DEBUG]u =  27
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  27
+[DEBUG]u =  27
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  15
+[DEBUG]u =  15
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  20
+[DEBUG]u =  20
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  5
+[DEBUG]u =  5
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  47
+[DEBUG]u =  47
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  40
+[DEBUG]u =  40
+[DEBUG]vet_adj[u].size() =  5
+[DEBUG]v =  44
+[DEBUG]u =  44
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  30
+[DEBUG]u =  30
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  46
+[DEBUG]u =  46
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  25
+[DEBUG]u =  25
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  37
+[DEBUG]u =  37
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  32
+[DEBUG]u =  32
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  12
+[DEBUG]u =  12
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  16
+[DEBUG]u =  16
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  20
+[DEBUG]u =  20
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  1
+[DEBUG]u =  1
+[DEBUG]vet_adj[u].size() =  5
+[DEBUG]v =  36
+[DEBUG]u =  36
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  25
+[DEBUG]u =  25
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  30
+[DEBUG]u =  30
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  7
+[DEBUG]u =  7
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  1
+[DEBUG]u =  1
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  18
+[DEBUG]u =  18
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  24
+[DEBUG]u =  24
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  35
+[DEBUG]u =  35
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  9
+[DEBUG]u =  9
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  49
+[DEBUG]u =  49
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  6
+[DEBUG]u =  6
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  46
+[DEBUG]u =  46
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  15
+[DEBUG]u =  15
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  1
+[DEBUG]u =  1
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  18
+[DEBUG]u =  18
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  10
+[DEBUG]u =  10
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  14
+[DEBUG]u =  14
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  40
+[DEBUG]u =  40
+[DEBUG]vet_adj[u].size() =  3
+[DEBUG]v =  37
+[DEBUG]u =  37
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  40
+[DEBUG]u =  40
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  24
+[DEBUG]u =  24
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  19
+[DEBUG]u =  19
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  10
+[DEBUG]u =  10
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  8
+[DEBUG]u =  8
+[DEBUG]vet_adj[u].size() =  0
+[DEBUG]v =  31
+[DEBUG]u =  31
+[DEBUG]vet_adj[u].size() =  1
+[DEBUG]v =  22
+[DEBUG]u =  22
+[DEBUG]vet_adj[u].size() =  0
+[DEBUG]tour_list.size() =  56
+8 10
+10 19
+19 24
+24 40
+40 37
+37 40
+40 14
+14 10
+10 18
+18 1
+1 15
+15 46
+46 6
+6 49
+49 9
+9 35
+35 24
+24 18
+18 1
+1 7
+7 30
+30 25
+25 36
+36 1
+1 20
+20 16
+16 12
+12 32
+32 37
+37 25
+25 46
+46 30
+30 44
+44 40
+40 47
+47 5
+5 20
+20 15
+15 27
+27 27
+27 8
+8 28
+28 24
+24 40
+40 12
+12 9
+9 16
+16 27
+27 22
+22 31
+31 22
+22 1
+1 40
+40 23
+23 8
+remaining = 0

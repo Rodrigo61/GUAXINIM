@@ -141,28 +141,31 @@ void print_matrix_debug(const T& t) {
 }
 //</editor-fold>
 
+
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
+    //ios_base::sync_with_stdio(false);
+    //cin.tie(0);
 
 
-    for (size_t i = 1; i <= 1997; i++) {
-        for (size_t j = i; j <= 1997; j++) {
+    for (int i = 1; i <= 2000; i++) {
+        for (int j = i; i+j <= 2000; j++) {
 
-            // long long multij = i*j;
-            // long long sumij = i + j;
+            ll multij = i*j;
+            ll sumij = i + j;
 
-            for (size_t k = j; k <= 1997; k++) {
+            for (int k = j; i + j + k <= 2000; k++) {
 
-                // long long multijk = multij * k;
-                // long long sumijk = sumij + k;
+                ll multijk = multij * k;
+                ll sumijk = sumij + k;
 
-                //deb("sumijk = ", sumijk);
-                //deb("multijk = ", multijk);
-                //
-                // if (multijk != 1 && (sumijk * 100000000 % (multijk - 1)) == 0) {
-                //     cout << i << " " << j << " " << k << " " << (sumijk * 100000000 / (multijk - 1)) << endl;
-                // }
+                if ((multijk - 1000000) > 0 && (sumijk * 1000000) % (multijk - 1000000) == 0) {
+
+                    int l = (sumijk * 1000000) / (multijk - 1000000);
+
+                    if (sumijk + l <= 2000 && l >= k){
+                        printf("%d.%02d %d.%02d %d.%02d %d.%02d\n", i/100, i%100, j/100, j%100, k/100, k%100, l/100, l%100);
+                    }
+                }
 
             }
         }
