@@ -1,4 +1,4 @@
-bool debug = true;
+bool debug = false;
 
 //<editor-fold desc="GUAXINIM TEMPLATE">
 /********   All Required Header Files ********/
@@ -119,7 +119,7 @@ void print_matrix_debug(const T& t) {
 //</editor-fold>
 
 int V, E;
-vector<vi> vet_adj;
+vector<set<int>> vet_adj;
 
 int main(){
     ios_base::sync_with_stdio(false);
@@ -134,49 +134,106 @@ int main(){
         cin >> u >> v;
         --u, --v;
 
-        vet_adj[u].pb(v);
-        vet_adj[v].pb(u);
+        vet_adj[u].insert(v);
+        vet_adj[v].insert(u);
     }
 
 
-    list<pii> has_to_move;
-    set<int> group1;
-    set<int> group2;
+    vi enimies_in_same_group(V);
+    vi which_group(V);
+    set<pii> has_to_move;
 
     for (size_t i = 0; i < V; i++) {
-        group1.insert(i);
+
+        which_group[i] = 1;
+        enimies_in_same_group[i] = vet_adj[i].size();
 
         if (vet_adj[i].size() > 1) {
-            has_to_move.pb(mp(i, 1));
+            has_to_move.insert(mp(i, 1));
         }
 
     }
 
     while (!has_to_move.empty()) {
-        int v = has_to_move.front().first;
-        int group = has_to_move.front().second;
+        int u = has_to_move.begin()->first;
+        int group = has_to_move.begin()->second;
+        has_to_move.erase(has_to_move.begin());
+
+        if (group == 1) {
+            enimies_in_same_group[u] = 0;
+            which_group[u] = 2;
+
+            for (auto &v : vet_adj[u]) {
+                if (which_group[v] == 2) {
+                    ++enimies_in_same_group[v];
+                    ++enimies_in_same_group[u];
+
+                    if (enimies_in_same_group[v] > 1) {
+                        has_to_move.erase(mp(v, 1));
+                        has_to_move.insert(mp(v, 2));
+                    }
+
+                } else {
+
+                    --enimies_in_same_group[v];
+                    if (enimies_in_same_group[v] == 1) {
+                        has_to_move.erase(mp(v, 1));
+                        has_to_move.erase(mp(v, 2));
+                    }
+                }
+            }
+        } else {
+
+            enimies_in_same_group[u] = 0;
+            which_group[u] = 1;
+
+            for (auto &v : vet_adj[u]) {
+                if (which_group[v] == 1) {
+                    ++enimies_in_same_group[v];
+                    ++enimies_in_same_group[u];
+
+                    if (enimies_in_same_group[v] > 1) {
+                        has_to_move.erase(mp(v, 2));
+                        has_to_move.insert(mp(v, 1));
+                    }
+
+                } else {
+                    --enimies_in_same_group[v];
+                    if (enimies_in_same_group[v] == 1) {
+                        has_to_move.erase(mp(v, 1));
+                        has_to_move.erase(mp(v, 2));
+                    }
+                }
+            }
+        }
     }
 
-    printf("2\n");
+    int n_groups = *max_element(all(which_group)) == 2 ? 2:1;
+
+    printf("%d\n", n_groups);
 
     bool first = true;
-    for (auto &v : group1) {
-        if (first) {
-            printf("%d", v + 1);
-            first = false;
-        } else {
-            printf(" %d", v + 1);
+    for (int v = 0; v < V; ++v) {
+        if (which_group[v] == 1) {
+            if (first) {
+                printf("%d", v + 1);
+                first = false;
+            } else {
+                printf(" %d", v + 1);
+            }
         }
     }
     printf("\n");
 
     first = true;
-    for (auto &v : group2) {
-        if (first) {
-            printf("%d", v + 1);
-            first = false;
-        } else {
-            printf(" %d", v + 1);
+    for (int v = 0; v < V; ++v) {
+        if (which_group[v] == 2) {
+            if (first) {
+                printf("%d", v + 1);
+                first = false;
+            } else {
+                printf(" %d", v + 1);
+            }
         }
     }
     printf("\n");

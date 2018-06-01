@@ -1,0 +1,3061 @@
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]repeated =  BA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBBA
+[DEBUG]level =  4
+[DEBUG]repeated =  ABBBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AABBA
+[DEBUG]level =  4
+[DEBUG]repeated =  AABBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]repeated =  BBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBAA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BBBAAA
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  BBBAAAB
+[DEBUG]level =  6
+[DEBUG]repeated =  BBBAAAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]repeated =  AABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBAA
+[DEBUG]level =  3
+[DEBUG]repeated =  BBAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]repeated =  AABA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBB
+[DEBUG]level =  3
+[DEBUG]repeated =  ABBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]repeated =  AABA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBABA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BBABAA
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  BBABAAB
+[DEBUG]level =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  BBABAABA
+[DEBUG]level =  7
+[DEBUG]repeated =  BBABAABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]repeated =  A
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AAABA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  AAABAB
+[DEBUG]level =  5
+[DEBUG]repeated =  AAABAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBBA
+[DEBUG]level =  4
+[DEBUG]repeated =  ABBBA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]repeated =  ABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]repeated =  AABA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]repeated =  B
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BBAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]repeated =  B
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBAAB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BBAABA
+[DEBUG]level =  5
+[DEBUG]repeated =  BBAABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AABBB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  AABBBA
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  AABBBAA
+[DEBUG]level =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  AABBBAAB
+[DEBUG]level =  7
+[DEBUG]repeated =  AABBBAAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]repeated =  BAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBABA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BBABAA
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  BBABAAA
+[DEBUG]level =  6
+[DEBUG]repeated =  BBABAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]repeated =  AAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]repeated =  BAB
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]repeated =  AAA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]repeated =  B
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AABAB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  AABABB
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  AABABBB
+[DEBUG]level =  6
+[DEBUG]repeated =  AABABBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAABB
+[DEBUG]level =  4
+[DEBUG]repeated =  BAABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AAABB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  AAABBA
+[DEBUG]level =  5
+[DEBUG]repeated =  AAABBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAA
+[DEBUG]level =  3
+[DEBUG]repeated =  ABAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]repeated =  BBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABBB
+[DEBUG]level =  4
+[DEBUG]repeated =  BABBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAB
+[DEBUG]level =  3
+[DEBUG]repeated =  ABAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]repeated =  B
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BAAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBB
+[DEBUG]level =  3
+[DEBUG]repeated =  BBBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABAB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BABABB
+[DEBUG]level =  5
+[DEBUG]repeated =  BABABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBAA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  ABBAAB
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  ABBAABB
+[DEBUG]level =  6
+[DEBUG]repeated =  ABBAABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]repeated =  BB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABBA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BABBAA
+[DEBUG]level =  5
+[DEBUG]repeated =  BABBAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]repeated =  ABA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABAAB
+[DEBUG]level =  4
+[DEBUG]repeated =  ABAAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]repeated =  AAA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AABBA
+[DEBUG]level =  4
+[DEBUG]repeated =  AABBA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]repeated =  BAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]repeated =  BB
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBBB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  ABBBBB
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  ABBBBBB
+[DEBUG]level =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0
+[DEBUG]prefix =  ABBBBBBB
+[DEBUG]level =  7
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0
+[DEBUG]prefix =  ABBBBBBBB
+[DEBUG]level =  8
+[DEBUG]repeated =  ABBBBBBBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BABAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABA
+[DEBUG]level =  3
+[DEBUG]repeated =  BABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AABAA
+[DEBUG]level =  4
+[DEBUG]repeated =  AABAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]repeated =  BBA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]repeated =  ABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]repeated =  BAB
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBBA
+[DEBUG]level =  4
+[DEBUG]repeated =  BBBBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]repeated =  BA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]repeated =  BBA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  5
+[DEBUG]curr_node->repeated after =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 6
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]repeated =  BAB
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABABB
+[DEBUG]level =  4
+[DEBUG]repeated =  ABABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBBB
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  BBBBBB
+[DEBUG]level =  5
+[DEBUG]repeated =  BBBBBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]repeated =  BA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]repeated =  BAAA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]repeated =  AAA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BAAAA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBBB
+[DEBUG]level =  4
+[DEBUG]repeated =  BBBBB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBA
+[DEBUG]level =  3
+[DEBUG]repeated =  BBBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  6
+[DEBUG]curr_node->repeated after =  7
+[DEBUG]DP:
+[DEBUG] VECTOR:0 7
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]repeated =  AAA
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AABB
+[DEBUG]level =  3
+[DEBUG]repeated =  AABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]repeated =  BAB
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABABA
+[DEBUG]level =  4
+[DEBUG]repeated =  ABABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]repeated =  A
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BAAAA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]repeated =  BB
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]repeated =  BAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  5
+[DEBUG]curr_node->repeated after =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 6
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]repeated =  ABA
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  6
+[DEBUG]curr_node->repeated after =  7
+[DEBUG]DP:
+[DEBUG] VECTOR:0 7
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAB
+[DEBUG]level =  3
+[DEBUG]repeated =  BAAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAA
+[DEBUG]level =  3
+[DEBUG]repeated =  AAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  AAABB
+[DEBUG]level =  4
+[DEBUG]repeated =  AAABB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  ABAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]repeated =  ABA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBA
+[DEBUG]level =  2
+[DEBUG]repeated =  BBA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAAAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BAAAA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBAB
+[DEBUG]level =  4
+[DEBUG]repeated =  ABBAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABBBA
+[DEBUG]level =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  ABBBAA
+[DEBUG]level =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0
+[DEBUG]prefix =  ABBBAAA
+[DEBUG]level =  6
+[DEBUG]repeated =  ABBBAAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  ABABA
+[DEBUG]level =  4
+[DEBUG]repeated =  ABABA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]repeated =  AA
+[DEBUG]curr_node->repeated =  7
+[DEBUG]curr_node->repeated after =  8
+[DEBUG]DP:
+[DEBUG] VECTOR:0 8
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBAA
+[DEBUG]level =  4
+[DEBUG]repeated =  BBBAA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABA
+[DEBUG]level =  3
+[DEBUG]repeated =  BABA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABBA
+[DEBUG]level =  4
+[DEBUG]repeated =  BABBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]repeated =  B
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BABB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BABBB
+[DEBUG]level =  4
+[DEBUG]repeated =  BABBB
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAB
+[DEBUG]level =  3
+[DEBUG]repeated =  AAAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]repeated =  BA
+[DEBUG]curr_node->repeated =  3
+[DEBUG]curr_node->repeated after =  4
+[DEBUG]DP:
+[DEBUG] VECTOR:0 4
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  4
+[DEBUG]curr_node->repeated after =  5
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 5
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BAAB
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BAABA
+[DEBUG]level =  4
+[DEBUG]repeated =  BAABA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABBA
+[DEBUG]level =  3
+[DEBUG]repeated =  ABBA
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]repeated =  AB
+[DEBUG]curr_node->repeated =  7
+[DEBUG]curr_node->repeated after =  8
+[DEBUG]DP:
+[DEBUG] VECTOR:0 8
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAB
+[DEBUG]level =  2
+[DEBUG]repeated =  AAB
+[DEBUG]curr_node->repeated =  5
+[DEBUG]curr_node->repeated after =  6
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 6
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AA
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  AAA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  AAAA
+[DEBUG]level =  3
+[DEBUG]repeated =  AAAA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+[DEBUG]prefix =  B
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  BB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  BBB
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  BBBA
+[DEBUG]level =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0
+[DEBUG]prefix =  BBBAB
+[DEBUG]level =  4
+[DEBUG]repeated =  BBBAB
+[DEBUG]curr_node->repeated =  0
+[DEBUG]curr_node->repeated after =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 0 1
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]repeated =  A
+[DEBUG]curr_node->repeated =  2
+[DEBUG]curr_node->repeated after =  3
+[DEBUG]DP:
+[DEBUG] VECTOR:3
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  A
+[DEBUG]level =  0
+[DEBUG]DP:
+[DEBUG] VECTOR:0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0
+[DEBUG]prefix =  AB
+[DEBUG]level =  1
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0
+[DEBUG]prefix =  ABA
+[DEBUG]level =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0
+[DEBUG]prefix =  ABAA
+[DEBUG]level =  3
+[DEBUG]repeated =  ABAA
+[DEBUG]curr_node->repeated =  1
+[DEBUG]curr_node->repeated after =  2
+[DEBUG]DP:
+[DEBUG] VECTOR:0 0 0 2
+[DEBUG]LPS:
+[DEBUG] VECTOR:0 0 0 1
+8
