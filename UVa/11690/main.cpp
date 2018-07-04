@@ -210,34 +210,32 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
 
-    int n_cases;
-    cin >> n_cases;
 
-    for (int w = 0; w < n_cases; ++w) {
-        int n_friends, n_query;
 
-        cin >> n_friends >> n_query;
-        int vet_own[n_friends];
+    int n_friends, n_query;
 
-        for (int i = 0; i < n_friends; ++i) {
-            cin >> vet_own[i];
-        }
+    cin >> n_friends >> n_query;
+    int vet_own[n_friends];
 
-        UnionFind uf(n_friends, vet_own);
-        int a, b;
-        for (int i = 0; i < n_query; ++i) {
-            cin >> a >> b;
-
-            deb("a = ", a, "b = ", b);
-            uf.add_friends(a, b);
-        }
-
-        if(uf.possible()){
-            cout << "POSSIBLE" << endl;
-        }else{
-            cout << "IMPOSSIBLE" << endl;
-        }
+    for (int i = 0; i < n_friends; ++i) {
+        cin >> vet_own[i];
     }
+
+    UnionFind uf(n_friends, vet_own);
+    int a, b;
+    for (int i = 0; i < n_query; ++i) {
+        cin >> a >> b;
+
+        deb("a = ", a, "b = ", b);
+        uf.add_friends(a, b);
+    }
+
+    if(uf.possible()){
+        cout << "POSSIBLE" << endl;
+    }else{
+        cout << "IMPOSSIBLE" << endl;
+    }
+    
 
     return 0;
 }

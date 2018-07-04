@@ -1,3 +1,11 @@
+/*
+ * O (V + E)
+ *
+ * Setar V e vet_adj;
+ * resposta dada em sorted_vertices
+ *
+*/
+
 vector<vi> vet_adj;
 vi visited;
 vi sorted_vertices;
@@ -21,7 +29,7 @@ void topological_sort(){
 	visited.resize(V, 0);
 
 	sorted_vertices.clear();
-	sorted_vertices.resize(V);
+	sorted_vertices.reserve(V);
 
     for (size_t i = 0; i < V; i++) {
         if(!visited[i]){

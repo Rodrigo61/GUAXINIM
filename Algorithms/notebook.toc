@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}Graphs}{1}
+\contentsline {subsection}{\numberline {1.1} Dijkstra}{1}
+\contentsline {subsection}{\numberline {1.2} Warshall}{1}
+\contentsline {subsection}{\numberline {1.3} SPFA}{2}
+\contentsline {subsection}{\numberline {1.4} MST - Kruskal}{2}
+\contentsline {subsection}{\numberline {1.5} SCC - Tarjan}{3}
+\contentsline {subsection}{\numberline {1.6} Topological Sort - Tarjan}{3}
+\contentsline {subsection}{\numberline {1.7} Articulation points and Bridges}{3}
+\contentsline {subsection}{\numberline {1.8} Bipartite checking}{4}
+\contentsline {subsection}{\numberline {1.9} MCBM - Augment}{4}
+\contentsline {subsection}{\numberline {1.10} Hopcroft}{5}
+\contentsline {subsection}{\numberline {1.11} Minimum vertex cover - MVC}{5}
+\contentsline {subsection}{\numberline {1.12} Max Flow - Edmonds}{6}
+\contentsline {subsection}{\numberline {1.13} Max Flow - Dinic}{7}
+\contentsline {subsection}{\numberline {1.14} Min Cost - Max Flow (Edmonds + SPFA)}{8}
+\contentsline {subsection}{\numberline {1.15} Euler tour}{9}
+\contentsline {section}{\numberline {2}Trees}{9}
+\contentsline {subsection}{\numberline {2.1} Diameter}{9}
+\contentsline {subsection}{\numberline {2.2} Create from degree array}{9}
+\contentsline {section}{\numberline {3}DP}{10}
+\contentsline {subsection}{\numberline {3.1} LCS}{10}
+\contentsline {subsection}{\numberline {3.2} LIS - NlgN}{10}
+\contentsline {subsection}{\numberline {3.3} MAX 2D}{10}
+\contentsline {subsection}{\numberline {3.4} Count change}{11}
+\contentsline {section}{\numberline {4}Data Structures}{11}
+\contentsline {subsection}{\numberline {4.1} Max SegTree (Simple)}{11}
+\contentsline {subsection}{\numberline {4.2} Sum SegTree (Lazy)}{12}
+\contentsline {subsection}{\numberline {4.3} ETT in SegTree}{12}
+\contentsline {subsection}{\numberline {4.4} Trie (Complete)}{13}
+\contentsline {section}{\numberline {5}String}{14}
+\contentsline {subsection}{\numberline {5.1} KMP}{14}
+\contentsline {section}{\numberline {6}Misc}{15}
+\contentsline {subsection}{\numberline {6.1} MOS - Distinct elements}{15}
+\contentsline {subsection}{\numberline {6.2} Primes generator}{16}
+\contentsline {subsection}{\numberline {6.3} Inversions vector nlgn}{16}
+\contentsline {section}{\numberline {7}Theorems}{17}
+\contentsline {section}{\numberline {8}Template}{17}
