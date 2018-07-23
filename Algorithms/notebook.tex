@@ -1,0 +1,165 @@
+\documentclass [12pt,twocolumn,oneside]{article}
+\usepackage {listings}
+\usepackage {color}
+\usepackage[top=1.5cm,bottom=1cm,left=1cm,right=1cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage[default]{sourcecodepro}
+\usepackage[T1]{fontenc}
+\definecolor {mygreen}{rgb}{0,0.6,0}
+\definecolor {mygray}{rgb}{0.5,0.5,0.5}
+\definecolor {mymauve}{rgb}{0.58,0,0.82}
+\lstset { %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  %basicstyle=\small,               % the size of the fonts that are used for the code
+  basicstyle=\scriptsize,               % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  %frame=single,                     adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=Octave,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  %title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\begin {document}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\tableofcontents
+\scriptsize
+
+\bigskip
+
+\newpage
+\section{Graphs}
+\subsection{ Dijkstra}
+\lstinputlisting [language=c++] {"Graphs/dijkstra.cpp"}
+
+\subsection{ Warshall}
+\lstinputlisting [language=c++] {"Graphs/floyd.cpp"}
+
+\subsection{ SPFA}
+\lstinputlisting [language=c++] {"Graphs/SPFA.cpp"}
+
+\subsection{ MST - Kruskal}
+\lstinputlisting [language=c++] {"Graphs/mst.cpp"}
+
+\subsection{ SCC - Tarjan}
+\lstinputlisting [language=c++] {"Graphs/SCC.cpp"}
+
+\subsection{ Topological Sort - Tarjan}
+\lstinputlisting [language=c++] {"Graphs/topoSort.cpp"}
+
+\subsection{ Articulation points and Bridges}
+\lstinputlisting [language=c++] {"Graphs/articPointAndBridge.cpp"}
+
+\subsection{ Bipartite checking}
+\lstinputlisting [language=c++] {"Graphs/bipartiteChecking.cpp"}
+
+\subsection{ MCBM - Augment}
+\lstinputlisting [language=c++] {"Graphs/MCBM.cpp"}
+
+\subsection{ Hopcroft}
+\lstinputlisting [language=c++] {"Graphs/MCBMHopcroft.cpp"}
+
+\subsection{ Minimum vertex cover - MVC}
+\lstinputlisting [language=c++] {"Graphs/MVC.cpp"}
+
+\subsection{ Max Flow - Edmonds}
+\lstinputlisting [language=c++] {"Graphs/maxFlowEdmonds.cpp"}
+
+\subsection{ Max Flow - Dinic}
+\lstinputlisting [language=c++] {"Graphs/maxFlowDinics.cpp"}
+
+\subsection{ Min Cost - Max Flow (Edmonds + SPFA)}
+\lstinputlisting [language=c++] {"Graphs/minCostMaxFlow.cpp"}
+
+\subsection{ Euler tour}
+\lstinputlisting [language=c++] {"Graphs/EulerTour.cpp"}
+
+
+\newpage
+\section{Trees}
+
+\subsection{ Diameter}
+\lstinputlisting [language=c++] {"Trees/diameter.cpp"}
+
+\subsection{ Create from degree array}
+\lstinputlisting [language=c++] {"Trees/genTreeByDegreeArray.cpp"}
+
+\newpage
+\section{DP}
+
+\subsection{ LCS}
+\lstinputlisting [language=c++] {"DPs/lcs.cpp"}
+
+\subsection{ LIS - NlgN}
+\lstinputlisting [language=c++] {"DPs/LISNLGN.cpp"}
+
+\subsection{ MAX 2D}
+\lstinputlisting [language=c++] {"DPs/MAX2D.cpp"}
+
+\subsection{ Count change}
+\lstinputlisting [language=c++] {"DPs/countChange.cpp"}
+
+
+\newpage
+\section{Data Structures}
+
+\subsection{ Max SegTree (Simple)}
+\lstinputlisting [language=c++] {"DataStrucutures/maxSegTree.cpp"}
+
+\subsection{ Sum SegTree (Lazy)}
+\lstinputlisting [language=c++] {"DataStrucutures/lazySumSegTree.cpp"}
+
+\subsection{ ETT in SegTree}
+\lstinputlisting [language=c++] {"DataStrucutures/DFSSegTree.cpp"}
+
+\subsection{ Trie (Complete)}
+\lstinputlisting [language=c++] {"DataStrucutures/trie.cpp"}
+
+\newpage
+\section{String}
+
+\subsection{ KMP}
+\lstinputlisting [language=c++] {"String/kmp.cpp"}
+
+
+\newpage
+\section{Misc}
+
+\subsection{ MOS - Distinct elements}
+\lstinputlisting [language=c++] {"MO's/DistinctMOS.cpp"}
+
+\subsection{ Primes generator}
+\lstinputlisting [language=c++] {"Misc/primesGen.cpp"}
+
+\subsection{ Inversions vector nlgn}
+\lstinputlisting [language=c++] {"Misc/InversiosVector.cpp"}	
+
+\newpage
+\section{Theorems}
+	Max Independent Set (MIS) = N - MCBM
+	
+\newpage
+\section{Template}
+\lstinputlisting [language=c++] {"../templateC++"}
+
+\end {document}

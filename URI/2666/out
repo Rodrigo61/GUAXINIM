@@ -1,0 +1,50 @@
+[DEBUG]init not_zero_count =  5
+[DEBUG]directed
+[DEBUG]ITERATION
+[DEBUG]cost_dist =  0
+[DEBUG]u =  0
+[DEBUG]curr_capa =  0
+[DEBUG]vet_adj_directed[u].size() =  2
+[DEBUG]v =  3
+[DEBUG]not_zero_count =  4
+[DEBUG]v =  4
+[DEBUG]not_zero_count =  3
+[DEBUG]u =  4
+[DEBUG]curr_capa =  10
+[DEBUG]vet_adj_directed[u].size() =  3
+[DEBUG]v =  2
+[DEBUG]not_zero_count =  3
+[DEBUG]v =  1
+[DEBUG]not_zero_count =  3
+[DEBUG]v =  5
+[DEBUG]not_zero_count =  3
+[DEBUG]u =  3
+[DEBUG]curr_capa =  10
+[DEBUG]vet_adj_directed[u].size() =  0
+[DEBUG]ITERATION
+[DEBUG]cost_dist =  16
+[DEBUG]u =  0
+[DEBUG]curr_capa =  0
+[DEBUG]vet_adj_directed[u].size() =  2
+[DEBUG]v =  3
+[DEBUG]v =  4
+[DEBUG]not_zero_count =  3
+[DEBUG]u =  4
+[DEBUG]curr_capa =  0
+[DEBUG]vet_adj_directed[u].size() =  3
+[DEBUG]v =  2
+[DEBUG]not_zero_count =  2
+[DEBUG]v =  1
+[DEBUG]not_zero_count =  1
+[DEBUG]v =  5
+[DEBUG]not_zero_count =  0
+[DEBUG]u =  5
+[DEBUG]curr_capa =  10
+[DEBUG]vet_adj_directed[u].size() =  0
+[DEBUG]u =  1
+[DEBUG]curr_capa =  10
+[DEBUG]vet_adj_directed[u].size() =  0
+[DEBUG]u =  2
+[DEBUG]curr_capa =  10
+[DEBUG]vet_adj_directed[u].size() =  0
+50

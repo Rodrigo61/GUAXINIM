@@ -1,5 +1,7 @@
 /*
-	Esse algoritmo apenas conta (minimizando) o LeftSide de um grafo bipartido (se for possivel, possible = false).
+ * O (V + E)
+ * Setar vet_adj e V.
+ *Esse algoritmo apenas conta (minimizando) o LeftSide de um grafo bipartido (se for possivel, possible = false).
 */
 
 vi color(V, -1);

@@ -1,6 +1,9 @@
 *SSSP a partir da origem e do destino
 ---> CANDN/SPOJ
 
+*SSSP Variations
+----> URI/1529
+
 * Busca binária em grafo
 ---> MROADS/SPOJ
 ---> TAP2013I

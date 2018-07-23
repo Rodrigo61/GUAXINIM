@@ -1,8 +1,16 @@
+/*
+ * O(ElgV)
+ *
+ * Setar vet_adj, V e E.
+ * resposta: vetor dist
+ *
+ */
+
 #define INF 100000000000000
 
 int V, E;
 
-/* pair com o id do vizinho e a distancia até ele */
+/* pair com o id do vizinho e a distancia ate ele */
 vector<list<pair<int, ll>>> vet_adj;
 vll dist;
 
