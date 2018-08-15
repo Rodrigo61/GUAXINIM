@@ -118,64 +118,34 @@ void print_matrix_debug(const T& t) {
 }
 //</editor-fold>
 
-int N;
-vector<vector<char>> grid;
 
-ll solve(int i, int j) {
-
-    bool found_space = false;
-    for (; !found_space && i < 3; i++) {
-
-        if (j >= N) { j = 0; }
-
-        for (; !found_space && j < N; ++j) {
-            if (grid[i][j] == '-') {
-                found_space = true;
-            }
-        }
-    }
-
-    if (found_space) {
-        --i;
-        --j;
-    }
-
-    if (i == 3) {
-        return 1;
-    }
-
-
-    ll res = 0;
-    if (i + 1 < 3 && grid[i + 1][j] == '-') {
-        grid[i][j] = '*';
-        grid[i + 1][j] = '*';
-
-        res += solve(i, j);
-
-        grid[i][j] = '-';
-        grid[i + 1][j] = '-';
-    }
-    if (j + 1 < N && grid[i][j + 1] == '-') {
-        grid[i][j] = '*';
-        grid[i][j + 1] = '*';
-        res += solve(i, j);
-
-        grid[i][j] = '-';
-        grid[i][j + 1] = '-';
-    }
-    return res;
-}
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
 
-    while (cin >> N, N != -1) {
-        grid.clear();
-        deb("N = ", N);
-        grid.resize(3, vector<char>(N, '-'));
-        printf("%lld\n", solve(0, 0));
-    }
+	int n;
+	
+	ll dp[31];
+	dp[0] = 1;
+	dp[2] = 3;
+	dp[4] = 11;
+
+	for (int i = 6; i <= 30; i += 2)
+	{
+		dp[i] = 11 * dp[i - 4];
+	}
+	
+	
+	while (scanf("%d", &n) != EOF)
+	{
+		if (n & 1)
+		{
+			printf("0\n");
+		}
+		else
+		{
+			printf("%lld\n", dp[n]);
+		}
+	}
 
     return 0;
 }
