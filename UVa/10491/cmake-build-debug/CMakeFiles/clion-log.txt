@@ -1,4 +1,0 @@
-/opt/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/rodrigo/Dropbox/UNICAMP/GUAXINIM/UVa/10491
--- Configuring done
--- Generating done
--- Build files have been written to: /home/rodrigo/Dropbox/UNICAMP/GUAXINIM/UVa/10491/cmake-build-debug
