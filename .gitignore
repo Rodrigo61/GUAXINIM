@@ -1,1 +1,11 @@
+*
+!.gitattributes
+!.gitignore
+!readme.md
+!.gitkeep
+!*.cpp
+!*.py
+!*.c
+!*/
+
 /new-team/
