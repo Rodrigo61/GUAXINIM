@@ -149,20 +149,19 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
 
-    srand (time(NULL));
-    cout << 1 << endl;
-
-
-    int N_MAX = 20000;
-    int HEIGHT_MAX = 1000000000;
+	srand (time(NULL));
+    int N_MAX = 10;
+    int T_MAX = 10;
 
     int N = randNum(1, N_MAX);
-    int K = randNum(1, N);
 
-    cout << N << " " << K << endl;
+    cout << N << endl;
 
+	int last = 1;
     for (size_t i = 0; i < N; i++) {
-        cout << randNum(1, HEIGHT_MAX) << " ";
+		int curr = randNum(last + 20, T_MAX);
+        cout << curr << endl;
+        last = curr;
     }
     cout << endl;
 
