@@ -1,10 +1,19 @@
 /*
- * O(V + E)  // Mas o algoritmo aumentador eh O(VE)
- *
- * Setar o vetor match com algoritmo aumentador
- *
- * MVC = Vertices a esquerda nao visitados + vertices a direita visitados durante um
- * DFS alternado em um MCBM
+	Algoritmo para recuperar o conjunto de vertices que forma um MVC.
+	Lembre-se que MVC = MCBM (dual).
+	Esse algoritmo pré-supoem que o MCBM já foi calculado.
+	MVC = Vertices a esquerda nao visitados + vertices a direita visitados durante um
+		  DFS alternado em um MCBM
+	[COMPLEX] O(V + E)
+	[USAGE]
+		[INIT] Rode algum algoritmo de MCBM. É preciso que se tenha:
+					* vi match: Usado para definir qual vertice do lado esquerdo
+								se conecta com o vertice i do lado direito.
+								OBS: usamos -1 se não há conexao com o vertice i;
+					* int V_left & V_right: tamanhos dos respectivos lados
+	
+	[OUT]
+		Retorna um vetor de indices dos vértices que compoem um MVC.
 */
 
 #define LEFT_TYPE 0
@@ -12,9 +21,11 @@
 
 vector<vi> vet_adj;
 vi match;
+int V_left, V_right;
+
 vi matched; // will track left vertex that did not matched
 vi visited;
-int V_left, V_right, N;
+
 
 void alternate_dfs_aux(int u, int type) {
 
@@ -51,13 +62,7 @@ void alternate_dfs() {
 }
 
 vi min_vertex_cover() {
-
-    match.assign(V_left + V_right, -1);
-    for (int l = 0; l < V_left; l++) {
-        visited.assign(V_left, 0);
-        aug(l);
-    }
-
+	
     matched.assign(V_left, 0);
     for (int u : match) {
         if (u != - 1) {
@@ -68,14 +73,13 @@ vi min_vertex_cover() {
     alternate_dfs();
 
     vi result;
-
-    for (size_t i = 0; i < V_left; i++) {
+    for (int i = 0; i < V_left; i++) {
         if (!visited[i]) {
             result.pb(i);
         }
     }
 
-    for (size_t i = 0; i < V_right; i++) {
+    for (int i = 0; i < V_right; i++) {
         if (visited[i + V_left]) {
             result.pb(i + V_left);
         }

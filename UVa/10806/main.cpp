@@ -1,19 +1,28 @@
-/*
-   [COMPLEX] O(kVE^2) (???)
-   [USAGE]
-		[INIT] 
-				* V: número de vértices do grafo
-				* edge_list: Use a função put_edge para montar as adjacencias
-							 (RESET se usar 2x)
-	[OUT]
-		first = max_flow, second = min_cost
-	[OBS]
-	Esse algoritmo tambem funciona para redes de transporte (vertices com demandas), mas lembre-se:
-    Se a soma das demandas não for zero, crie um vertice dummy que a zere
-	Crie um source e um sink, O source eh ligado a todo vertice de demanda positiva (e fornece a mesma para eles)
-	e o sink eh ligado a todo vertice de demanda negativa (e suga a mesma deles) 
- * */
+#include "bits/stdc++.h"
+using namespace std;
 
+#define db(x) //cerr << #x << " == " << x << endl
+#define all(container) container.begin(), container.end()
+#define mp(i,j) make_pair(i,j)
+#define pb push_back
+
+typedef pair<int,int> pii;
+typedef long long ll;
+typedef vector<ll> vll;
+typedef vector<int> vi;
+typedef vector<pii> vii;
+
+template<typename T>
+void print_vector_debug(const T& t) {
+	cout << "[DEBUG] VECTOR:";
+	for (auto i = t.cbegin(); i != t.cend(); ++i) {
+		if ((i + 1) != t.cend()) {
+			cout << *i << " ";
+		} else {
+			cout << *i << endl;
+		}
+	}
+}
 
 #define INF (ll)100000000
 
@@ -28,7 +37,7 @@ struct Edge{
 };
 
 vector<vector<Edge>> edge_list;
-int V;
+int N;
 
 void put_edge(int u, int v, ll capacity, ll cost) {
 
@@ -38,16 +47,21 @@ void put_edge(int u, int v, ll capacity, ll cost) {
 
 ll augment(int v, vi &parent, vi &prev_edge, ll minEdge) {
 
+	db("x");
     if (parent[v] == -1) {
         return minEdge;
 
     } else {
 
+		db("x1");
         int u = parent[v];
         Edge &edge = edge_list[u][prev_edge[v]];
-
+		db("x2");
+		db(u);
+		db(edge.capacity);
+		db(min(minEdge, edge.capacity));
         ll curr_flow = augment(u, parent, prev_edge, min(minEdge, edge.capacity));
-
+		db("x3");
         edge.capacity -= curr_flow;
         edge_list[v][edge.cancel_edge].capacity += curr_flow;
 
@@ -65,13 +79,14 @@ pair<ll, ll> mcmf(int source, int target) {
         source_flow += edge.capacity;
     }
 
+	db("a");
     while (true) {
-
-        vi dist(V, INF);
+		db("b");
+        vi dist(N, INF);
         dist[source] = 0;
-        vi parent(V, -1);
-        vi prev_edge(V, -1);
-        vi in_queue(V, 0);
+        vi parent(N, -1);
+        vi prev_edge(N, -1);
+        vi in_queue(N, 0);
 
         queue<int> q;
         q.push(source);
@@ -79,12 +94,12 @@ pair<ll, ll> mcmf(int source, int target) {
 
         //SPFA
         while (!q.empty()) {
-
+			db("c");
             int u = q.front();
             q.pop();
             in_queue[u] = 0;
 
-            for (int e = 0; e < edge_list[u].size(); ++e) {
+            for (int e = 0; e < (int)edge_list[u].size(); ++e) {
 
                 auto &edge  = edge_list[u][e];
                 int v = edge.dest;
@@ -103,17 +118,18 @@ pair<ll, ll> mcmf(int source, int target) {
                 }
             }
         }
-
+		db("d");
 
         if (dist[target] != INF) {
             max_flow += augment(target, parent, prev_edge, INF);
         } else {
             break;
         }
+        db("e");
     }
         
 	ll cost = 0;
-	for (int i = 0; i < V; i++)
+	for (int i = 0; i < N; i++)
 	{
 		for (auto &edge : edge_list[i])
 		{
@@ -127,3 +143,43 @@ pair<ll, ll> mcmf(int source, int target) {
     return {max_flow, cost};
 }
 
+
+
+int main() 
+{
+	
+	while (scanf("%d", &N), N)
+	{
+		int M;
+		scanf("%d", &M);
+		
+		++N;
+		edge_list.clear();
+		edge_list.resize(N);
+		
+		int u, v, u2v;
+		for (int i = 0; i < M; i++)
+		{
+			scanf("%d%d%d", &u, &v, &u2v);
+			put_edge(u, v, 1, u2v);
+			put_edge(v,u, 1, u2v);
+		}
+		put_edge(0,1, 2, 0);
+		db("d1");
+		
+		auto res = mcmf(0, N-1);
+		db("d2");
+		
+		if (res.first == 2)
+		{
+			printf("%lld\n", res.second);
+		}
+		else
+		{
+			printf("Back to jail\n");
+		}
+		
+	}
+
+	return 0;
+}

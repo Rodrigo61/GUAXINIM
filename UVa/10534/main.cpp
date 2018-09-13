@@ -142,43 +142,32 @@ void print_matrix_debug(const T& t) {
 //</editor-fold>
 
 
-void get_LIS(vi &values, vi &res) {
+
+vi LIS(vi &values) {
 
     int sz = values.size();
-    res.resize(sz);
-
+    vi res(sz);
     vi ends_list(sz);
     int max_size = 0;
+    
     for (size_t i = 0; i < sz; ++i) {
+        
         int pos = distance(ends_list.begin(), lower_bound(ends_list.begin(), ends_list.begin() + max_size, values[i]));
 
         ends_list[pos] = values[i];
         
-	if (pos == max_size)
+		if (pos == max_size)
+		{
             max_size = pos + 1;
+		}
         
-	res[i] = max_size;
+		res[i] = pos + 1;
     }
-
-}
-
-vi get_LDS(vi &values) {
-
-    int sz = values.size();
-    vi res(sz);
-
-    res[sz - 1] = 1;
-    for (int i = sz - 2; i >= 0; i--) {
-        res[i] = 1;
-        for (int j = i + 1; j < sz; j++) {
-            if (values[j] < values[i]) {
-                res[i] = max(res[i], res[j] + 1);
-            }
-        }
-    }
-
+    
     return res;
+
 }
+
 
 int main(){
     ios_base::sync_with_stdio(false);
@@ -192,18 +181,16 @@ int main(){
         for (size_t i = 0; i < N; i++) {
             cin >> values[i];
         }
-
-        vi LIS; 
-	get_LIS(values, LIS);
+        
+		vi lis = LIS(values);
 
         reverse(all(values));
-        vi LDS;
-	get_LIS(values, LDS);
-        reverse(all(LDS));
+		vi lds = LIS(values);
+        reverse(all(lds));
 
         int max_wavio_sz = 0;
         for (size_t i = 0; i < N; i++) {
-            int mini_seq = min(LIS[i], LDS[i]);
+            int mini_seq = min(lis[i], lds[i]);
             max_wavio_sz = max(max_wavio_sz, 2 * mini_seq - 1);
         }
 

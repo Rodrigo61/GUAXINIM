@@ -65,6 +65,7 @@ ll cross(Point a, Point b, Point c)
 struct Segment{
 	
 	Point p1, p2;
+	Point escape;
 	int id;
 	
 	Segment(){}
@@ -83,6 +84,15 @@ struct Segment{
 			p1 = b;
 			p2 = a;
 		}
+		
+		if (a.y > b.y)
+		{
+			escape = a;
+		}
+		else
+		{
+			escape = b;
+		}
 	}
 	
 };
@@ -92,19 +102,19 @@ bool cross_cmp(int, int);
 
 pii NULL_PAIR = {-1, -1};
 int N, C;
-vector<Segment> vet_seg;
-vector<int> vet_query;
+Segment vet_seg[100005];
+int vet_query[100005];
 set<int, bool(*)(int, int)> activated_seg(cross_cmp);
-vi next_seg;
-vi first_seg;
-vector<pair<int, pii>> X_vals;
-vector<pii> dp;
+int next_seg[100005];
+int first_seg[100005];
+pair<int, pii> X_vals[400005];
+pii dp[100005];
 
 
 bool cross_cmp(int id_a, int id_b)
 {
-	Segment &seg_a = vet_seg.at(id_a);
-	Segment &seg_b = vet_seg.at(id_b);
+	Segment &seg_a = vet_seg[id_a];
+	Segment &seg_b = vet_seg[id_b];
 
 	if (seg_a.p1.x >= seg_b.p1.x)
 	{
@@ -132,11 +142,12 @@ int get_next_seg(int id)
 
 void sweep_line()
 {
-	sort(all(X_vals));
+	int sz = (2 * N + C);
+	sort(X_vals, X_vals + sz);
 	
-	for (int i = 0; i < (int)X_vals.size(); i++)
+	for (int i = 0; i < sz; i++)
 	{
-		pair<int, pii> p = X_vals.at(i);
+		pair<int, pii> p = X_vals[i];
 		int type = p.second.second;
 		int id = p.second.first;
 
@@ -146,14 +157,14 @@ void sweep_line()
 			db(type);
 			if (!activated_seg.empty())
 			{
-				first_seg.at(type) = *activated_seg.begin();
+				first_seg[type] = *activated_seg.begin();
 			}
 			
 		}
 		else
 		{
 			int seg_id = abs(id);
-			Segment &seg = vet_seg.at(seg_id);
+			Segment &seg = vet_seg[seg_id];
 			
 			if (id < 0) // Ponto mais a esquerda desse segmento
 			{
@@ -161,7 +172,7 @@ void sweep_line()
 				
 				if (seg.p1.y > seg.p2.y) // Verifica se é ponto de escape
 				{
-					next_seg.at(seg_id) = get_next_seg(seg_id);
+					next_seg[seg_id] = get_next_seg(seg_id);
 				}
 				
 			}
@@ -169,7 +180,7 @@ void sweep_line()
 			{
 				if (seg.p1.y < seg.p2.y) // Verifica se é ponto de escape
 				{
-					next_seg.at(seg_id) = get_next_seg(seg_id);
+					next_seg[seg_id] = get_next_seg(seg_id);
 				}
 				
 				activated_seg.erase(seg_id);
@@ -181,28 +192,27 @@ void sweep_line()
 
 pii get_exit_point(int curr_seg)
 {
-	
-	if (vet_seg.at(next_seg.at(curr_seg)).p1.y == vet_seg.at(next_seg.at(curr_seg)).p2.y) // verifica se o proximo é segmento horizontal
+	if (vet_seg[next_seg[curr_seg]].p1.y == vet_seg[next_seg[curr_seg]].p2.y) // verifica se o proximo é segmento horizontal
 	{
 		// Verifica o ponto de escape para determinar o X final
-		if (vet_seg.at(curr_seg).p1.y > vet_seg.at(curr_seg).p2.y)
+		if (vet_seg[curr_seg].p1.y > vet_seg[curr_seg].p2.y)
 		{
-			return {vet_seg.at(curr_seg).p1.x, vet_seg.at(next_seg.at(curr_seg)).p1.y};
+			return {vet_seg[curr_seg].p1.x, vet_seg[next_seg[curr_seg]].p1.y};
 		}
 		else
 		{
-			return {vet_seg.at(curr_seg).p2.x, vet_seg.at(next_seg.at(curr_seg)).p1.y};
+			return {vet_seg[curr_seg].p2.x, vet_seg[next_seg[curr_seg]].p1.y};
 		}
 		
 	}	
 	
-	pii &res = dp.at(curr_seg);
+	pii &res = dp[curr_seg];
 	if (res != NULL_PAIR)
 	{
 		return res;
 	}
-
-	res = get_exit_point(next_seg.at(curr_seg));
+	
+	res = get_exit_point(next_seg[curr_seg]);
 	return res;
 }
 
@@ -214,60 +224,48 @@ int main()
 	{
 		
 		activated_seg.clear();
-		vet_seg.clear();
-		vet_seg.resize(N + 1);
-		vet_query.clear();
-		vet_query.resize(C);
-
-		next_seg.clear();
-		next_seg.resize(N + 1);
 		
-		first_seg.clear();
-		first_seg.resize(C);
-		
-		X_vals.clear();
-		X_vals.resize((2 * N + C));
-		
-		dp.clear();
-		dp.resize(N + 1, NULL_PAIR);
+		for (int i = 0; i < 100005; i++)
+		{
+			dp[i] = NULL_PAIR;
+			next_seg[i] = 0;
+			first_seg[i] = 0;
+		}
 		
 		ll x1, y1, x2, y2;
 		for (int i = 0; i < N; i++)
 		{
 			scanf("%lld%lld%lld%lld", &x1, &y1, &x2, &y2);
-			vet_seg.at(i + 1).set(Point(x1, y1), Point(x2, y2), (i + 1));
-			X_vals.at(i) = {vet_seg.at(i + 1).p1.x, {-(i + 1), 1}};
-			X_vals.at(i + N) = {vet_seg.at(i + 1).p2.x, {(i + 1), 1}};
+			vet_seg[i + 1].set(Point(x1, y1), Point(x2, y2), (i + 1));
+			X_vals[i] = {vet_seg[i + 1].p1.x, {-(i + 1), 1}};
+			X_vals[i + N] = {vet_seg[i + 1].p2.x, {(i + 1), 1}};
 		}
 		
 		for (int i = 0; i < C; i++)
 		{
-			scanf("%d", &vet_query.at(i));
-			X_vals.at(2 * N + i) = {vet_query.at(i), {0, i}};
+			scanf("%d", &vet_query[i]);
+			X_vals[2 * N + i] = {vet_query[i], {0, i}};
 		}
 		
 		sweep_line();
 		
-		db(C);
+		
 		for (int i = 0; i < C; i++)
 		{
-			db(vet_query.at(i));
-			db(first_seg.size());
-			int first = first_seg.at(i);
+			int first = first_seg[i];
+			
 			db(first);
-			db(i);
 			if (first == 0) // Nao há segmentos acima, trivial
 			{
-				printf("%d\n", vet_query.at(i));
+				printf("%d\n", vet_query[i]);
 			}
-			else if (vet_seg.at(first).p1.y == vet_seg.at(first).p2.y) // Primeiro segmento já é um horizontal, trivial
+			else if (vet_seg[first].p1.y == vet_seg[first].p2.y) // Primeiro segmento já é um horizontal, trivial
 			{
 				
-				printf("%d %lld\n", vet_query.at(i), vet_seg.at(first).p2.y);
+				printf("%d %lld\n", vet_query[i], vet_seg[first].p2.y);
 			}
 			else
 			{
-				db("oi");
 				pii exit = get_exit_point(first);
 				
 				if (exit.second != 0)
@@ -278,7 +276,6 @@ int main()
 				{
 					printf("%d\n", exit.first);
 				}
-				db("OIe");
 				
 			}
 			

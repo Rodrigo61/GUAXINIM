@@ -120,18 +120,19 @@ void print_matrix_debug(const T& t) {
 
 int V;
 vector<set<int>> vet_adj;
+vi articulation_vertex;
+// int bridge_edge[][]
 
-void aux_AP_and_bridges(int u, int &dfs_time, int root_dfs, vi &discovery_time, vi &lowest_discovery_reachable,
-                        vi &articulation_vertex, vi &parent) {
+void aux_AP_and_bridges(int u, int &dfs_time, int root_dfs, vi &dt, vi &ldr, vi &parent) {
 
 
-    lowest_discovery_reachable[u] = ++dfs_time;
-    discovery_time[u] = lowest_discovery_reachable[u];
+    ldr[u] = ++dfs_time;
+    dt[u] = ldr[u];
 
     int root_dfs_children = 0;
 
     for (auto v : vet_adj[u]) {
-        if (discovery_time[v] == 0) {
+        if (dt[v] == 0) {
             parent[v] = u;
 
             if (u == root_dfs) {  // Tratando caso raiz do DFS
@@ -142,37 +143,36 @@ void aux_AP_and_bridges(int u, int &dfs_time, int root_dfs, vi &discovery_time, 
                 }
             }
 
-            aux_AP_and_bridges(v, dfs_time, root_dfs, discovery_time, lowest_discovery_reachable,
-                               articulation_vertex, parent);
+            aux_AP_and_bridges(v, dfs_time, root_dfs, dt, ldr, parent);
 
-            if (u != root_dfs && lowest_discovery_reachable[v] >= discovery_time[u]) {
+            if (u != root_dfs && ldr[v] >= dt[u]) {
                 articulation_vertex[u] = 1;
             }
 
-            // FOR bridge
-            //	if (lowest_discovery_reachable[v] > discovery_time[u])
+            // To set bridges
+            //	if (ldr[v] > dt[u])
             //		bridge_edge[u][v] = briged_edge[v][u] = true;
 
-            lowest_discovery_reachable[u] = min(lowest_discovery_reachable[u], lowest_discovery_reachable[v]);
+            ldr[u] = min(ldr[u], ldr[v]);
         } else if (v != parent[u]) {
-            lowest_discovery_reachable[u] = min(lowest_discovery_reachable[u], discovery_time[v]);
+            ldr[u] = min(ldr[u], dt[v]);
         }
     }
 }
 
-void AP_and_bridges(vi &articulation_vertex) {
+void AP_and_bridges() {
 
     articulation_vertex.clear();
     articulation_vertex.resize(V);
 
-    vi discovery_time(V, 0);
-    vi lowest_discovery_reachable(V);
+    vi dt(V, 0);
+    vi ldr(V);
     vi parent(V, 0);
     int dfs_time = 0;
 
-    aux_AP_and_bridges(0, dfs_time, 0, discovery_time,
-                       lowest_discovery_reachable, articulation_vertex, parent);
+    aux_AP_and_bridges(0, dfs_time, 0, dt, ldr, parent);
 }
+
 
 
 
@@ -212,14 +212,12 @@ int main(){
         }
 
         deb("vet_adj completed");
+        
+        AP_and_bridges();
 
 
-        vi articulation_points;
-        AP_and_bridges(articulation_points);
-
-
-        print_vector_debug(articulation_points);
-        printf("%d\n", count(all(articulation_points), 1));
+        print_vector_debug(articulation_vertex);
+        printf("%d\n", count(all(articulation_vertex), 1));
 
 
     }

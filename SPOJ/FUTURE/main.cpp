@@ -1,20 +1,11 @@
-/*
-   [COMPLEX] O(kVE^2) (???)
-   [USAGE]
-		[INIT] 
-				* V: número de vértices do grafo
-				* edge_list: Use a função put_edge para montar as adjacencias
-							 (RESET se usar 2x)
-	[OUT]
-		first = max_flow, second = min_cost
-	[OBS]
-	Esse algoritmo tambem funciona para redes de transporte (vertices com demandas), mas lembre-se:
-    Se a soma das demandas não for zero, crie um vertice dummy que a zere
-	Crie um source e um sink, O source eh ligado a todo vertice de demanda positiva (e fornece a mesma para eles)
-	e o sink eh ligado a todo vertice de demanda negativa (e suga a mesma deles) 
- * */
+#include<bits/stdc++.h>
 
-
+using namespace std;
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+#define db(x) //cerr << #x << " = " << x << endl;
+#define int long long
 #define INF (ll)100000000
 
 struct Edge{
@@ -127,3 +118,86 @@ pair<ll, ll> mcmf(int source, int target) {
     return {max_flow, cost};
 }
 
+
+main()
+{
+	
+	int M;
+	
+	vector<pair<pair<int, int>, int>> input;
+	int n_cases = 0;
+	while (scanf("%lld%lld", &V, &M) != EOF)
+	{
+		
+		db(V);
+		db(M);
+		
+		printf("Instancia %lld\n", ++n_cases);
+		input.clear();
+		input.resize(M);
+		for (int i = 0; i < M; i++)
+		{
+			scanf("%lld%lld%lld", &input[i].first.first, &input[i].first.second, &input[i].second);
+			input[i].first.first--;
+			input[i].first.second--;
+			db(input[i].first.first);
+		}
+		db(input.size());
+		
+		int D, K;
+		scanf("%lld%lld", &D, &K);
+		
+		edge_list.clear();
+		edge_list.resize(V + 1);
+		
+		put_edge(0, V, D, 0);
+		
+		for (auto &p : input)
+		{
+			int u = p.first.first;
+			int v = p.first.second;
+			int c = p.second;
+			
+			db(u);
+			db(v);
+			db(c);
+			
+			if (u == 0)
+			{
+				put_edge(V, v, K, c);
+			}
+			else
+			{
+				put_edge(u, v, K, c);
+			}
+			
+			if (v == 0)
+			{
+				put_edge(V, u, K, c);
+			}
+			else
+			{
+				put_edge(v, u, K, c);
+			}
+			
+				
+		}
+		
+		V++;
+		
+		auto ans = mcmf(0, V - 2);
+		
+		if (ans.first == D)
+		{
+			printf("%lld\n\n", ans.second);
+			
+		}
+		else
+		{
+			printf("impossivel\n\n");
+		}
+		
+	}
+	
+	return 0;
+}

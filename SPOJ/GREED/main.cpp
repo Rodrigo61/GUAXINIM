@@ -118,29 +118,28 @@ void print_matrix_debug(const T& t) {
 }
 //</editor-fold>
 
-#define INF 100000000
+#define INF (ll)100000000
 
 struct Edge{
     int dest;
-    int capacity;
-    int cost;
+    ll capacity;
+    ll max_capacity;
+    ll cost;
     int cancel_edge; // id da reverse edge associada
 
-    Edge(int x, int y, int c, int z) : dest(x), capacity(y), cost(c), cancel_edge(z){}
+    Edge(int x, ll y, ll c, int z) : dest(x), capacity(y), max_capacity(y), cost(c), cancel_edge(z){}
 };
 
 vector<vector<Edge>> edge_list;
 int V;
 
-void put_edge(int u, int v, int capacity, int cost) {
+void put_edge(int u, int v, ll capacity, ll cost) {
 
     edge_list[u].push_back(Edge(v, capacity, cost, edge_list[v].size()));
     edge_list[v].push_back(Edge(u, 0, -cost, edge_list[u].size() - 1));
 }
 
-
-
-int augment(int v, vi &parent, vi &prev_edge, int minEdge) {
+ll augment(int v, vi &parent, vi &prev_edge, ll minEdge) {
 
     if (parent[v] == -1) {
         return minEdge;
@@ -150,7 +149,7 @@ int augment(int v, vi &parent, vi &prev_edge, int minEdge) {
         int u = parent[v];
         Edge &edge = edge_list[u][prev_edge[v]];
 
-        int curr_flow = augment(u, parent, prev_edge, min(minEdge, edge.capacity)); // recursive
+        ll curr_flow = augment(u, parent, prev_edge, min(minEdge, edge.capacity));
 
         edge.capacity -= curr_flow;
         edge_list[v][edge.cancel_edge].capacity += curr_flow;
@@ -160,11 +159,11 @@ int augment(int v, vi &parent, vi &prev_edge, int minEdge) {
     }
 }
 
-int max_flow(int source, int target) {
+pair<ll, ll> mcmf(int source, int target) {
 
-    int max_flow = 0;
+    ll max_flow = 0;
 
-    int source_flow = 0;
+    ll source_flow = 0;
     for (auto &edge : edge_list[source]) {
         source_flow += edge.capacity;
     }
@@ -181,7 +180,7 @@ int max_flow(int source, int target) {
         q.push(source);
         in_queue[source] = 1;
 
-
+        //SPFA
         while (!q.empty()) {
 
             int u = q.front();
@@ -209,18 +208,26 @@ int max_flow(int source, int target) {
         }
 
 
-        deb("dist[target] = ", dist[target]);
-        deb("end bellman");
         if (dist[target] != INF) {
             max_flow += augment(target, parent, prev_edge, INF);
-            deb("max_flow = ", max_flow);
         } else {
             break;
         }
     }
+        
+	ll cost = 0;
+	for (int i = 0; i < V; i++)
+	{
+		for (auto &edge : edge_list[i])
+		{
+			if (edge.cost > 0)
+			{
+				cost += edge.cost * (edge.max_capacity - edge.capacity);
+			}
+		}
+	}
 
-    return max_flow;
-
+    return {max_flow, cost};
 }
 
 int main(){
@@ -300,27 +307,27 @@ int main(){
 
 
         V = edge_list.size();
-        max_flow(2 * n_cards, 2 * n_cards + 1);
+        auto res = mcmf(2 * n_cards, 2 * n_cards + 1);
 
 
-        int total_cost = 0;
+        //~ int total_cost = 0;
 
-        for (int i = 0; i < n_cards; ++i) {
+        //~ for (int i = 0; i < n_cards; ++i) {
 
-            for (auto &edge : edge_list[i]) {
+            //~ for (auto &edge : edge_list[i]) {
 
-//                deb("i = ", i);
-//                deb("edge.capacity = ", edge.capacity);
-//                deb("edge.dest = ", edge.dest);
+//~ //                deb("i = ", i);
+//~ //                deb("edge.capacity = ", edge.capacity);
+//~ //                deb("edge.dest = ", edge.dest);
 
-                if (edge.dest < 2 * n_cards && edge.capacity == 0) {
-                    total_cost += edge.cost;
-//                    deb("used, total cost = ", total_cost);
-                }
-            }
-        }
+                //~ if (edge.dest < 2 * n_cards && edge.capacity == 0) {
+                    //~ total_cost += edge.cost;
+//~ //                    deb("used, total cost = ", total_cost);
+                //~ }
+            //~ }
+        //~ }
 
-        printf("%d\n", total_cost);
+        printf("%lld\n", res.second);
     }
 
     return 0;
