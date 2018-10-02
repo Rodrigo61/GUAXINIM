@@ -183,7 +183,6 @@ int main(){
 
 	for (int i = 2; i < G + 1; i++)
 	{
-		//~ printf("g = %d\n", i);
 		fill(i, 1, L, 1, L);
 	}
 

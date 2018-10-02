@@ -1,7 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-#define db(x) //cerr << #x << " == " << x << endl
+#define db(x) cerr << #x << " == " << x << endl
 #define all(container) container.begin(), container.end()
 #define mp(i,j) make_pair(i,j)
 #define pb push_back
@@ -24,9 +24,6 @@ void print_vector_debug(const T& t) {
 	}
 }
 
-int N;
-set<pii> set_ret;
-
 struct line
 {
 	ll m, n;
@@ -35,10 +32,10 @@ struct line
         m(_m), n(_n){}
 };
 
-line hull[100001];
-int hullSize, hullPtr;
+#define MAXN 1000001
 
-vector<line> E;
+line hull[MAXN];
+int hullSize, hullPtr;
 
 ll y(int idx, ll x) 
 {
@@ -63,11 +60,8 @@ void insertline(line l)
 
 ll query(int x)
 {
+	while(hullPtr+1 < hullSize && y(hullPtr, x) < y(hullPtr+1, x)) hullPtr++;
 	
-	//////////////MUDAR PARA BUSCA BINARIA
-	while(hullPtr+1 < hullSize && y(hullPtr, x) >= y(hullPtr+1, x)) 
-		hullPtr++;
-    	
 	return y(hullPtr, x);
 }
 
@@ -105,48 +99,48 @@ ll bb_query(int x)
 	return y(best, x);
 }
 
+ll a, b, c, N;
+ll X[MAXN];
+ll prefix[MAXN];
+
 int main() 
 {
+	int T;
+	scanf("%d", &T);
 	
-	scanf("%d", &N);
-	
-	int w, h;
-	for (int i = 0; i < N; i++)
+	for (int w = 0; w < T; w++)
 	{
-		scanf("%d%d", &w, &h);
-		set_ret.insert({-h, -w});
-	}
-	
-	vii rect;
-	
-	auto slow_it = set_ret.begin();
-	auto fast_it = slow_it;
-	fast_it++;
-	
-	while (slow_it != set_ret.end())
-	{
-		while (fast_it != set_ret.end() && (slow_it->first <= fast_it->first && slow_it->second <= fast_it->second))
+		hullPtr = hullSize = 0;
+		
+		scanf("%lld%lld%lld%lld", &N, &a, &b, &c);
+		
+		ll acu = 0;
+		for (int j = 0; j < N; j++)
 		{
-			++fast_it;
+			scanf("%lld", &X[j]);
+			acu += X[j];
+			prefix[j] = acu;
 		}
 		
-		rect.pb({-(slow_it->first), -(slow_it->second)});
-		slow_it = fast_it;
+		ll dp[N];
+		fill(dp, dp + N, 0);
+		
+		insertline(line(0, 0));
+		ll ans = 0;
+		
+		for (int i = 0; i < N; i++)
+		{
+			ll indep = (a * prefix[i] * prefix[i]) + (b * prefix[i]) + c;
+			ans = bb_query(prefix[i]) + indep;
+			
+			if (i < N - 1)
+			{
+				insertline(line(-2 * a * prefix[i], ans + (a * prefix[i] * prefix[i]) - (b * prefix[i])));
+			}
+		}
+		
+		printf("%lld\n", ans);
 	}
 	
-	reverse(all(rect));
-
-	hullSize = hullPtr = 0;
-	
-	ll ans = 0;
-	
-	for (int i = 0; i < (int)rect.size(); ++i)
-	{
-		insertline(line(rect[i].second, ans));
-		ans = bb_query(rect[i].first);
-	}
-	
-	printf("%lld\n", ans);
-	 
 	return 0;
 }
