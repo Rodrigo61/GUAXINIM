@@ -34,7 +34,7 @@ private:
 
     void update_aux(pii curr_seg, pii target_seg, long long int value, int node){
 
-        lazy_update(curr_seg, node);
+        lazy_update(curr_seg, node); // Não mova de lugar
 
         if(curr_seg.second < target_seg.first || curr_seg.first > target_seg.second){
             /* Disjoint */
