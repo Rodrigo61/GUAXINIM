@@ -31,9 +31,6 @@ int update_p(int u, int v)
 		
 	m[u] = min(m[u], vals[u]);
 	p[u] = update_p(p[u], u);
-	db(u);
-	db(v);
-	db(m[u]);
 	m[v] = min(m[v], m[u]);
 	
 	return p[u];
@@ -54,7 +51,6 @@ int main()
 	}
 	
 	memset(m, INF, sizeof(m));
-	
 	
 	for (int i = 0; i < M; i++)
 	{
