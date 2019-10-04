@@ -6,7 +6,6 @@ using namespace std;
 #define fi first
 #define se second
 #define vi vector<int>
-
 #define all(x) x.begin(), x.end()
 #define pii pair<int, int>
 #define vii vector<pii>
@@ -15,10 +14,15 @@ using namespace std;
 #define ull unsigned long long
 typedef long double ld;
 
-ll extract_factors(ll a)
+int two_factor(ll a)
 {
-	while (a % 2 == 0) a /= 2;
-	return a;
+	int cnt = 0;
+	while (a % 2 == 0)
+	{
+		a /= 2;
+		cnt++;
+	}
+	return cnt;
 }
 
 int main()
@@ -26,59 +30,31 @@ int main()
 	int n;
 	scanf("%d", &n);
 	
-	vll vals;
-	map<ll, int> freq;
+	map<int, vll> freq2;
 	for (int i = 0; i < n; i++)
 	{
 		ll a;
 		scanf("%lld", &a);
-		vals.pb(a);
-		freq[a]++;
+		freq2[two_factor(a)].pb(a);
 	}
-	
-	sort(all(vals));
-	
-	set<ll> factors;
-	set<ll> used;
-	map<ll, ll> f2i;
-	multiset<ll> discarded;
-	for (int i = 0; i < n; i++)
-	{
-		db(vals[i]);
-		if (used.find(vals[i]) != used.end())
-			continue;
-			
-		ll f = extract_factors(vals[i]);
-		db(f);
-		
-		if (factors.find(f) != factors.end())
+
+	ll bigger = 0;
+	int bigger_set = -1;
+
+	for (auto f : freq2)
+		if ((int)f.se.size() > bigger)
 		{
-			ll j = f2i[f];
-			if (freq[vals[i]] > freq[vals[j]])
-			{
-				used.erase(used.find(vals[j]));
-				used.insert(vals[i]);
-				f2i[f] = i;
-				for (int k = 0; k < freq[vals[j]]; ++k)
-					discarded.insert(vals[j]);
-			}
-			else
-				discarded.insert(vals[i]);
+			bigger = f.se.size();
+			bigger_set = f.fi;
 		}
-		else
-		{
-			f2i[f] = i;
-			factors.insert(f);
-			used.insert(vals[i]);
-		}
-	}
 	
-	printf("%d\n", (int)discarded.size());
-	if (!discarded.empty())
-	{
-		for (ll i : discarded)
-		{
-			printf("%lld ", i);
-		}
-	}
+	vll not_used;
+	for (auto f : freq2)
+		if (f.fi != bigger_set)
+			for (auto i : f.se)
+				not_used.pb(i);
+
+	printf("%d\n", (int)not_used.size());
+	for (ll i : not_used)
+		printf("%lld ", i);
 }

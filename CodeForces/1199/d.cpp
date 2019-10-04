@@ -1,78 +1,62 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 #define pb push_back
 #define db(x) cerr << #x << " = " << x << endl;
-#define INF 0x3f3f3f3
+#define INF 0x3f3f3f3f
 #define fi first
 #define se second
-#define ll long long
 #define vi vector<int>
 #define vll vector<ll>
 #define all(x) x.begin(), x.end()
 #define pii pair<int, int>
+#define pll pair<ll, ll>
 #define vii vector<pii>
-
-pii NULL_PAIR = {-1, -1};
+#define ll long long
+#define ull unsigned long long
+typedef long double ld;
 
 int main()
 {
-	int N;
-	scanf("%d", &N);
-	vi vals(N);
-	for (int i = 0; i < N; i++)
+	int n, i;
+	scanf("%d%d", &n, &i);
+
+	if (i/n > 20)
+		return !printf("0\n");
+
+	int k = (1 << i/n);
+
+	set<int> used;
+	map<int, int> freq;
+	for (int i = 0; i < n; i++)
 	{
-		scanf("%d", &vals[i]);
+		int a;
+		scanf("%d", &a);
+		used.insert(a);
+		freq[a]++;
+	}
+
+	vi used_vet;
+	used_vet.insert(used_vet.begin(), all(used));
+	
+	int will_change = n;
+	int best = INF;
+	for (int i = 0; i < k; i++)
+	{
+		will_change -= freq[used_vet[i]];
+	}
+
+	best = min(best, will_change);
+
+	for (int i = k; i < n; i++)
+	{
+		will_change += freq[used_vet[i - k]];
+		will_change -= freq[used_vet[i]];
+		best = min(best, will_change);
 	}
 	
-	int Q;
-	scanf("%d", &Q);
-	vii type2;
-	vii type1(N, NULL_PAIR);
+	printf("%d\n", best);
+
 	
-	for (int i = 0; i < Q; i++)
-	{
-		int cmd;
-		scanf("%d", &cmd);
-		if (cmd == 1)
-		{
-			int p, x;
-			scanf("%d%d", &p, &x);
-			--p;
-			type1[p] = {i, x};
-		}
-		else
-		{
-			int x;
-			scanf("%d", &x);
-			type2.pb({i, x});
-		}
-	}
-	
-	int best = 0;
-	int it2 = type2.size() - 1;
-	vi best_vet(Q);
-	for (int i = Q - 1; i >= 0; i--)
-	{
-		if (it2 >= 0 && i == type2[it2].fi)
-		{
-			best = max(best, type2[it2].se);
-			--it2;
-		}
-		best_vet[i] = best;
-	}
-	
-	for (int i = 0; i < N; i++)
-	{
-		pii u = type1[i];
-		if (u == NULL_PAIR)
-		{
-			printf("%d ", max(vals[i], best_vet[0]));
-		}
-		else
-		{
-			printf("%d ", max(u.se, best_vet[u.fi]));
-		}
-	}
-	
+
 }

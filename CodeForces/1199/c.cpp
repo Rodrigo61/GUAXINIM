@@ -1,96 +1,67 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 #define pb push_back
 #define db(x) //cerr << #x << " = " << x << endl;
-#define INF 0x3f3f3f3
+#define INF 0x3f3f3f3f
 #define fi first
 #define se second
-#define ll long long
 #define vi vector<int>
 #define vll vector<ll>
 #define all(x) x.begin(), x.end()
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define vii vector<pii>
+#define ll long long
+#define ull unsigned long long
+typedef long double ld;
 
-ll N, I;
- 
 int main()
 {
-	scanf("%lld%lld", &N, &I);
-	ll total_bits = 8 * I;
-	ll K = pow(2, total_bits/N);
-	db(K);
-	
-	vi vals(N);
-	for (int i = 0; i < N; i++)
-	{
-		scanf("%d", &vals[i]);
-	}
-	
+	int n, i;
+	scanf("%d%d", &n, &i);
+	i *= 8;
+
+	if (i/n > 20)
+		return !printf("0\n");
+	db(i/n);
+	int k = (1 << i/n);
+
+	db(k);
+
+	set<int> used;
 	map<int, int> freq;
-	vi cleft(N);
-	for (int i = 0; i < N; i++)
+	for (int i = 0; i < n; i++)
 	{
-		cleft[i] = i - freq[vals[i]];
-		if (freq.find(vals[i]) == freq.end()) freq[vals[i]] = 0;
-		freq[vals[i]]++;
+		int a;
+		scanf("%d", &a);
+		used.insert(a);
+		freq[a]++;
+	}
+
+	vector<int> used_vet(all(used));
+
+	if (k > (int)used_vet.size())
+		return !printf("0\n");
+	
+	int will_change = n;
+	int best = INF;
+	for (int i = 0; i < k; i++)
+	{
+		will_change -= freq[used_vet[i]];
+	}
+
+	best = min(best, will_change);
+
+	for (int i = k; i < (int)used_vet.size(); i++)
+	{
+		will_change += freq[used_vet[i - k]];
+		will_change -= freq[used_vet[i]];
+		best = min(best, will_change);
 	}
 	
-	freq.clear();
-	vi cright(N);
-	int cnt = 0;
-	for (int i = N - 1; i >= 0; i--)
-	{
-		cright[i] = cnt - freq[vals[i]];
-		if (freq.find(vals[i]) == freq.end()) freq[vals[i]] = 0;
-		freq[vals[i]]++;
-		++cnt;
-	}
-	
-	int l = N/2;
-	int r = N/2;
-	set<int> s;
-	int res = INF;
-	while (s.size() <= K)
-	{
-		res = min(res, cleft[l] + cright[r]);
-		if (l - 1 >= 0 && s.find(vals[l - 1]) != s.end())
-		{
-			--l;
-			continue;
-		}
-		if (r + 1 < N && s.find(vals[r + 1]) != s.end())
-		{
-			++r;
-			continue;
-		}
-		
-		if (l == 0)
-		{
-			r++;
-			s.insert(vals[r]);
-			continue;
-		}
-		
-		if (r == N - 1)
-		{
-			l--;
-			s.insert(vals[l]);
-			continue;
-		}
-		
-		if (abs(cleft[l] - cleft[l - 1]) < abs(cleft[r] - cright[r + 1]))
-		{
-			l--;
-			s.insert(vals[l]);
-		}
-		else
-		{
-			r++;
-			s.insert(vals[r]);
-		}
-		
-	}
-			printf("%d\n", res);
+	printf("%d\n", best);
 
 	
+
 }

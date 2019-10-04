@@ -3,7 +3,7 @@
 using namespace std;
 #define pb push_back
 #define db(x) //cerr << #x << " = " << x << endl;
-#define INF 0x3f3f3f3f
+#define INF 0x3f3f3f3f3f3f3f3f
 #define fi first
 #define se second
 #define vi vector<int>
@@ -15,46 +15,46 @@ using namespace std;
 #define ull unsigned long long
 typedef long double ld;
 
-struct block
-{
-	ll hL, hR;
-	ll cost;
-};
-list<block> lst;
+#define MAXN 312345
 
+ll h[MAXN], b[MAXN];
+ll dp[MAXN][5];
+int t;
+int vis[MAXN][5];
+int n;
 
-void merge(list<block>::iterator it)
+ll solve(int idx, int p_offs)
 {
-	if (it == lst.begin()) return;
+	if (idx == n)
+		return 0;
+
+	if (vis[idx][p_offs] == t)
+		return dp[idx][p_offs];
+	vis[idx][p_offs] = t;
 	
-	auto it2 = it;
-	--it2;
-	while (it2->hR - 1 == it->hR)
+	ll res = INF;
+	if (idx == 0)
 	{
-		it->hL = it2->hL;
-		it->cost += it2->cost;
-		if (it2 == lst.begin())
+		for (int i = 0; i < 3; i++)
 		{
-			lst.erase(it2);
-			break;
+			ll rec = solve(idx + 1, i) + (b[idx] * i);
+			res = min(res, rec);
 		}
-		else
-		{
-			auto aux = it2;
-			aux--;
-			lst.erase(it2);
-			it2 = aux;
-		}
-		
 	}
+	else
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			if (h[idx] + i != (h[idx - 1] + p_offs))
+			{
+				ll rec = solve(idx + 1, i) + (b[idx] * i);
+				res = min(res, rec);
+			}
+		}	
+	}
+
+	return dp[idx][p_offs] = res;
 }
-
-
-void print_it(list<block>::iterator it)
-{
-	//~ printf("hL = %lld  hR = %lld  cost = %lld\n", it->hL, it->hR, it->cost);
-}
-
 
 int main()
 {
@@ -62,120 +62,14 @@ int main()
 	scanf("%d", &q);
 	while (q--)
 	{
-		int n;
 		scanf("%d", &n);
-		lst.clear();
-	
-		ll cost = 0;
-		vll as, bs;
+		
 		for (int i = 0; i < n; i++)
 		{
-			ll a, b;
-			scanf("%lld%lld", &a, &b);
-			as.pb(a);
-			bs.pb(b);
-			
-			//todo empty
-			if (lst.empty())
-			{
-				lst.push_back({a, a, b});
-				continue;
-			}
-			
-			auto it = lst.end();
-			--it;
-			
-			print_it(it);
-			
-			if (it->hR == a)
-			{
-				db("d1");
-				if (it->cost < b)
-				{
-					db("d1.1");
-					cost += it->cost;
-					it->cost += b;
-					it->hR = a;
-					it->hL++;
-					
-					merge(it);
-				}
-				else
-				{
-					db("d1.2");
-					lst.clear();
-					lst.push_back({a + 1, a + 1, b});
-					cost += b;
-				}
-			}
-			else
-			{
-				db("d2");
-				lst.push_back({a, a, b});
-				it = lst.end();
-				--it;
-				merge(it);
-			}
+			scanf("%lld%lld", &h[i], &b[i]);
 		}
-		
-		ll res = cost;
-		
-		db("-------");
-		cost = 0;
-		lst.clear();
-		for (int i = n - 1; i >= 0; i--)
-		{
-			ll a = as[i];
-			ll b = bs[i];
-			db(a);
-			db(b);
-			
-			//todo empty
-			if (lst.empty())
-			{
-				lst.push_back({a, a, b});
-				continue;
-			}
-			
-			auto it = lst.end();
-			--it;
-			
-			print_it(it);
-			
-			if (it->hR == a)
-			{
-				db("d1");
-				if (it->cost < b)
-				{
-					db("d1.1");
-					cost += it->cost;
-					it->cost += b;
-					it->hR = a;
-					it->hL++;
-					
-					merge(it);
-				}
-				else
-				{
-					db("d1.2");
-					lst.clear();
-					lst.push_back({a + 1, a + 1, b});
-					cost += b;
-					
-				}
-			}
-			else
-			{
-				db("d2");
-				lst.push_back({a, a, b});
-				it = lst.end();
-				--it;
-				merge(it);
-			}
-		}
-		
-		printf("%lld\n", min(cost, res));
-		
+
+		++t;
+		printf("%lld\n", solve(0, 0));		
 	}
-	
 }
